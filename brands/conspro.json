@@ -1,0 +1,23 @@
+{
+  "id": "conspro",
+  "name": "ConsPro",
+  "tagline": "Reliable IT. Exceptional people.",
+  "logo_text": "ConsPro ▮▮",
+  "footer_text": "ConsPro Managed Services · Confidential workforce document. AI-assisted — confirm details against the employee record.",
+  "tokens": {
+    "primary_color": "#0f766e",
+    "accent_color": "#b45309",
+    "page_bg": "#f6f5f1",
+    "surface_color": "#ffffff",
+    "text_color": "#1f2937",
+    "muted_color": "#6b7280",
+    "border_color": "#e5e1d8",
+    "body_font": "Georgia, 'Times New Roman', Cambria, serif",
+    "heading_font": "Georgia, 'Times New Roman', serif",
+    "label_transform": "none",
+    "label_spacing": "0",
+    "radius": "3px",
+    "accent_bar": false,
+    "max_width": "780px"
+  }
+}

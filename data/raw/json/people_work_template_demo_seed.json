@@ -1,0 +1,4545 @@
+{
+  "datasetName": "people-work-template-demo-seed",
+  "createdDate": "2026-07-08",
+  "description": "Sample person/work data for demonstrating resume templates, internal work-profile templates, and brand-specific presentation formats for ProCom and ConsPro.",
+  "templateTargets": [
+    {
+      "templateName": "Candidate Resume",
+      "intendedUse": "External candidate resume/profile generation",
+      "recommendedFields": [
+        "profile",
+        "summary",
+        "skills",
+        "workHistory",
+        "projects",
+        "education",
+        "certifications",
+        "resumeData"
+      ]
+    },
+    {
+      "templateName": "Internal Work Profile",
+      "intendedUse": "Internal staffing, skill matching, and new-work assignment planning",
+      "recommendedFields": [
+        "profile",
+        "summary",
+        "skills",
+        "projects",
+        "certifications",
+        "internalProfileData"
+      ]
+    }
+  ],
+  "brands": [
+    {
+      "brandId": "procom",
+      "companyName": "ProCom",
+      "domain": "software",
+      "presentationPersonality": "modern, technical, product-focused",
+      "suggestedSections": [
+        "Summary",
+        "Technical Skills",
+        "Project Impact",
+        "Engineering Experience",
+        "Education"
+      ]
+    },
+    {
+      "brandId": "conspro",
+      "companyName": "ConsPro",
+      "domain": "managed_it_services",
+      "presentationPersonality": "clear, operational, client-service-oriented",
+      "suggestedSections": [
+        "Summary",
+        "Client Support Skills",
+        "Certifications",
+        "Service Experience",
+        "Availability"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "personId": "procom_emp_1001",
+      "personType": "internal_employee",
+      "domain": "software",
+      "currentCompany": "ProCom",
+      "profile": {
+        "firstName": "Avery",
+        "lastName": "Carter",
+        "displayName": "Avery Carter",
+        "headline": "Senior Backend Engineer",
+        "level": "Mid",
+        "location": {
+          "city": "Austin",
+          "state": "TX",
+          "remoteStatus": "Remote"
+        }
+      },
+      "summary": "Senior Backend Engineer at ProCom with experience delivering production software for enterprise customers. Known for combining hands-on technical execution with practical documentation and strong team collaboration.",
+      "skills": {
+        "primary": [
+          "Java",
+          "Spring Boot",
+          "Kafka",
+          "PostgreSQL",
+          "AWS",
+          "Docker"
+        ],
+        "secondary": [
+          "Redis",
+          "REST APIs"
+        ],
+        "softSkills": [
+          "Mentoring",
+          "Clear Communication",
+          "Cross-functional Collaboration"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "ProCom",
+          "title": "Senior Backend Engineer",
+          "startDate": "2021-01",
+          "endDate": null,
+          "highlights": [
+            "Led delivery of a business-critical platform feature",
+            "Improved team documentation and onboarding materials"
+          ]
+        },
+        {
+          "company": "BrightLayer",
+          "title": "Software Engineer",
+          "startDate": "2016-03",
+          "endDate": "2021-01",
+          "highlights": [
+            "Built internal tools and customer-facing APIs",
+            "Supported releases and production troubleshooting"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Customer Portal Modernization",
+          "role": "Senior Backend Engineer",
+          "impact": "Reduced release friction",
+          "technologies": [
+            "Java",
+            "Spring Boot",
+            "Kafka",
+            "PostgreSQL"
+          ]
+        },
+        {
+          "name": "Internal Skills Marketplace",
+          "role": "Contributor",
+          "impact": "Helped map employee skills to upcoming project needs",
+          "technologies": [
+            "PostgreSQL",
+            "REST APIs",
+            "React"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "University of Iowa",
+          "degree": "B.S. Computer Science",
+          "year": "2012"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "AWS Certified Developer",
+          "status": "Active"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/avery-carter",
+        "github": "https://github.example.com/averycarter",
+        "portfolioHighlights": [
+          "Open-source contribution",
+          "Conference lightning talk"
+        ]
+      },
+      "internalProfileData": {
+        "employeeId": "PC-1001",
+        "manager": "Dana Walsh",
+        "performanceRating": 4.1,
+        "promotionReadiness": "Ready in 6-12 months",
+        "availabilityForNewWork": "Immediately",
+        "careerInterests": [
+          "Architecture",
+          "Mentoring"
+        ],
+        "internalNotes": "Strong candidate for cross-functional initiatives."
+      },
+      "metadata": {
+        "tags": [
+          "software",
+          "internal",
+          "ProCom",
+          "senior_backend_engineer"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "procom_emp_1002",
+      "personType": "internal_employee",
+      "domain": "software",
+      "currentCompany": "ProCom",
+      "profile": {
+        "firstName": "Jordan",
+        "lastName": "Brooks",
+        "displayName": "Jordan Brooks",
+        "headline": "Frontend Engineer",
+        "level": "Senior",
+        "location": {
+          "city": "Denver",
+          "state": "CO",
+          "remoteStatus": "Hybrid"
+        }
+      },
+      "summary": "Frontend Engineer at ProCom with experience delivering production software for enterprise customers. Known for combining hands-on technical execution with practical documentation and strong team collaboration.",
+      "skills": {
+        "primary": [
+          "React",
+          "TypeScript",
+          "GraphQL",
+          "Next.js",
+          "Design Systems",
+          "Jest"
+        ],
+        "secondary": [
+          "Figma"
+        ],
+        "softSkills": [
+          "Client Communication",
+          "Documentation",
+          "Problem Solving"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "ProCom",
+          "title": "Frontend Engineer",
+          "startDate": "2022-02",
+          "endDate": null,
+          "highlights": [
+            "Led delivery of a business-critical platform feature",
+            "Improved team documentation and onboarding materials"
+          ]
+        },
+        {
+          "company": "Northstar Apps",
+          "title": "Developer",
+          "startDate": "2017-03",
+          "endDate": "2022-01",
+          "highlights": [
+            "Built internal tools and customer-facing APIs",
+            "Supported releases and production troubleshooting"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Deployment Pipeline Refresh",
+          "role": "Frontend Engineer",
+          "impact": "Improved customer self-service",
+          "technologies": [
+            "React",
+            "TypeScript",
+            "GraphQL",
+            "Next.js"
+          ]
+        },
+        {
+          "name": "Internal Skills Marketplace",
+          "role": "Contributor",
+          "impact": "Helped map employee skills to upcoming project needs",
+          "technologies": [
+            "PostgreSQL",
+            "REST APIs",
+            "React"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Georgia Tech",
+          "degree": "B.S. Software Engineering",
+          "year": "2013"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Certified Kubernetes Application Developer",
+          "status": "Active"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/jordan-brooks",
+        "github": "https://github.example.com/jordanbrooks",
+        "portfolioHighlights": []
+      },
+      "internalProfileData": {
+        "employeeId": "PC-1002",
+        "manager": "Lee Brennan",
+        "performanceRating": 4.4,
+        "promotionReadiness": "Ready now",
+        "availabilityForNewWork": "2 weeks",
+        "careerInterests": [
+          "AI features",
+          "Product engineering"
+        ],
+        "internalNotes": "Prefers focused technical work over frequent context switching."
+      },
+      "metadata": {
+        "tags": [
+          "software",
+          "internal",
+          "ProCom",
+          "frontend_engineer"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "procom_emp_1003",
+      "personType": "internal_employee",
+      "domain": "software",
+      "currentCompany": "ProCom",
+      "profile": {
+        "firstName": "Morgan",
+        "lastName": "Nguyen",
+        "displayName": "Morgan Nguyen",
+        "headline": "Staff Software Engineer",
+        "level": "Staff",
+        "location": {
+          "city": "Chicago",
+          "state": "IL",
+          "remoteStatus": "Remote"
+        }
+      },
+      "summary": "Staff Software Engineer at ProCom with experience delivering production software for enterprise customers. Known for combining hands-on technical execution with practical documentation and strong team collaboration.",
+      "skills": {
+        "primary": [
+          "Distributed Systems",
+          "Go",
+          "gRPC",
+          "Kubernetes",
+          "Event Sourcing",
+          "System Design"
+        ],
+        "secondary": [],
+        "softSkills": [
+          "Leadership",
+          "Prioritization",
+          "Stakeholder Management"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "ProCom",
+          "title": "Staff Software Engineer",
+          "startDate": "2023-03",
+          "endDate": null,
+          "highlights": [
+            "Led delivery of a business-critical platform feature",
+            "Improved team documentation and onboarding materials"
+          ]
+        },
+        {
+          "company": "CivicCloud",
+          "title": "Systems Engineer",
+          "startDate": "2018-03",
+          "endDate": "2023-01",
+          "highlights": [
+            "Built internal tools and customer-facing APIs",
+            "Supported releases and production troubleshooting"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "AI Support Assistant",
+          "role": "Staff Software Engineer",
+          "impact": "Increased operational visibility",
+          "technologies": [
+            "Distributed Systems",
+            "Go",
+            "gRPC",
+            "Kubernetes"
+          ]
+        },
+        {
+          "name": "Internal Skills Marketplace",
+          "role": "Contributor",
+          "impact": "Helped map employee skills to upcoming project needs",
+          "technologies": [
+            "PostgreSQL",
+            "REST APIs",
+            "React"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "M.S. Computer Science",
+          "year": "2014"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Scrum Master",
+          "status": "Expired"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/morgan-nguyen",
+        "github": "https://github.example.com/morgannguyen",
+        "portfolioHighlights": []
+      },
+      "internalProfileData": {
+        "employeeId": "PC-1003",
+        "manager": "Chris Moreno",
+        "performanceRating": 4.7,
+        "promotionReadiness": "Developing",
+        "availabilityForNewWork": "1 month",
+        "careerInterests": [
+          "Leadership",
+          "Platform strategy"
+        ],
+        "internalNotes": "Strong candidate for cross-functional initiatives."
+      },
+      "metadata": {
+        "tags": [
+          "software",
+          "internal",
+          "ProCom",
+          "staff_software_engineer"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "procom_emp_1004",
+      "personType": "internal_employee",
+      "domain": "software",
+      "currentCompany": "ProCom",
+      "profile": {
+        "firstName": "Taylor",
+        "lastName": "Patel",
+        "displayName": "Taylor Patel",
+        "headline": "Machine Learning Engineer",
+        "level": "Lead",
+        "location": {
+          "city": "Atlanta",
+          "state": "GA",
+          "remoteStatus": "On-site"
+        }
+      },
+      "summary": "Machine Learning Engineer at ProCom with experience delivering production software for enterprise customers. Known for combining hands-on technical execution with practical documentation and strong team collaboration.",
+      "skills": {
+        "primary": [
+          "Python",
+          "PyTorch",
+          "RAG",
+          "Vector Databases",
+          "LangChain",
+          "FastAPI"
+        ],
+        "secondary": [
+          "ML Evaluation"
+        ],
+        "softSkills": [
+          "Calm Under Pressure",
+          "Ownership",
+          "Coaching"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "ProCom",
+          "title": "Machine Learning Engineer",
+          "startDate": "2024-04",
+          "endDate": null,
+          "highlights": [
+            "Led delivery of a business-critical platform feature",
+            "Improved team documentation and onboarding materials"
+          ]
+        },
+        {
+          "company": "DataForge",
+          "title": "Technical Lead",
+          "startDate": "2019-03",
+          "endDate": "2024-01",
+          "highlights": [
+            "Built internal tools and customer-facing APIs",
+            "Supported releases and production troubleshooting"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Usage Analytics Platform",
+          "role": "Machine Learning Engineer",
+          "impact": "Reduced release friction",
+          "technologies": [
+            "Python",
+            "PyTorch",
+            "RAG",
+            "Vector Databases"
+          ]
+        },
+        {
+          "name": "Internal Skills Marketplace",
+          "role": "Contributor",
+          "impact": "Helped map employee skills to upcoming project needs",
+          "technologies": [
+            "PostgreSQL",
+            "REST APIs",
+            "React"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Arizona State University",
+          "degree": "B.A. Mathematics",
+          "year": "2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Security+",
+          "status": "In Progress"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/taylor-patel",
+        "github": "https://github.example.com/taylorpatel",
+        "portfolioHighlights": [
+          "Open-source contribution",
+          "Conference lightning talk"
+        ]
+      },
+      "internalProfileData": {
+        "employeeId": "PC-1004",
+        "manager": "Dana Walsh",
+        "performanceRating": 3.9,
+        "promotionReadiness": "Strong in current role",
+        "availabilityForNewWork": "Limited capacity",
+        "careerInterests": [
+          "Security",
+          "Compliance"
+        ],
+        "internalNotes": "Prefers focused technical work over frequent context switching."
+      },
+      "metadata": {
+        "tags": [
+          "software",
+          "internal",
+          "ProCom",
+          "machine_learning_engineer"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "procom_emp_1005",
+      "personType": "internal_employee",
+      "domain": "software",
+      "currentCompany": "ProCom",
+      "profile": {
+        "firstName": "Riley",
+        "lastName": "Reed",
+        "displayName": "Riley Reed",
+        "headline": "DevOps Engineer",
+        "level": "Mid",
+        "location": {
+          "city": "Seattle",
+          "state": "WA",
+          "remoteStatus": "Hybrid"
+        }
+      },
+      "summary": "DevOps Engineer at ProCom with experience delivering production software for enterprise customers. Known for combining hands-on technical execution with practical documentation and strong team collaboration.",
+      "skills": {
+        "primary": [
+          "Terraform",
+          "Kubernetes",
+          "GitHub Actions",
+          "AWS",
+          "Observability",
+          "Helm"
+        ],
+        "secondary": [
+          "Linux"
+        ],
+        "softSkills": [
+          "Analytical Thinking",
+          "Curiosity",
+          "Adaptability"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "ProCom",
+          "title": "DevOps Engineer",
+          "startDate": "2021-05",
+          "endDate": null,
+          "highlights": [
+            "Led delivery of a business-critical platform feature",
+            "Improved team documentation and onboarding materials"
+          ]
+        },
+        {
+          "company": "BrightLayer",
+          "title": "Software Engineer",
+          "startDate": "2016-03",
+          "endDate": "2021-01",
+          "highlights": [
+            "Built internal tools and customer-facing APIs",
+            "Supported releases and production troubleshooting"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Customer Portal Modernization",
+          "role": "DevOps Engineer",
+          "impact": "Improved customer self-service",
+          "technologies": [
+            "Terraform",
+            "Kubernetes",
+            "GitHub Actions",
+            "AWS"
+          ]
+        },
+        {
+          "name": "Internal Skills Marketplace",
+          "role": "Contributor",
+          "impact": "Helped map employee skills to upcoming project needs",
+          "technologies": [
+            "PostgreSQL",
+            "REST APIs",
+            "React"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "University of Iowa",
+          "degree": "B.S. Computer Science",
+          "year": "2016"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "AWS Certified Developer",
+          "status": "Active"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/riley-reed",
+        "github": "https://github.example.com/rileyreed",
+        "portfolioHighlights": []
+      },
+      "internalProfileData": {
+        "employeeId": "PC-1005",
+        "manager": "Lee Brennan",
+        "performanceRating": 4.1,
+        "promotionReadiness": "Ready in 6-12 months",
+        "availabilityForNewWork": "Immediately",
+        "careerInterests": [
+          "Architecture",
+          "Mentoring"
+        ],
+        "internalNotes": "Strong candidate for cross-functional initiatives."
+      },
+      "metadata": {
+        "tags": [
+          "software",
+          "internal",
+          "ProCom",
+          "devops_engineer"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "procom_emp_1006",
+      "personType": "internal_employee",
+      "domain": "software",
+      "currentCompany": "ProCom",
+      "profile": {
+        "firstName": "Casey",
+        "lastName": "Johnson",
+        "displayName": "Casey Johnson",
+        "headline": "Engineering Manager",
+        "level": "Senior",
+        "location": {
+          "city": "Austin",
+          "state": "TX",
+          "remoteStatus": "Remote"
+        }
+      },
+      "summary": "Engineering Manager at ProCom with experience delivering production software for enterprise customers. Known for combining hands-on technical execution with practical documentation and strong team collaboration.",
+      "skills": {
+        "primary": [
+          "Engineering Management",
+          "Hiring",
+          "Roadmapping",
+          "Agile Delivery",
+          "Mentoring",
+          "Architecture Review"
+        ],
+        "secondary": [],
+        "softSkills": [
+          "Mentoring",
+          "Clear Communication",
+          "Cross-functional Collaboration"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "ProCom",
+          "title": "Engineering Manager",
+          "startDate": "2022-06",
+          "endDate": null,
+          "highlights": [
+            "Led delivery of a business-critical platform feature",
+            "Improved team documentation and onboarding materials"
+          ]
+        },
+        {
+          "company": "Northstar Apps",
+          "title": "Developer",
+          "startDate": "2017-03",
+          "endDate": "2022-01",
+          "highlights": [
+            "Built internal tools and customer-facing APIs",
+            "Supported releases and production troubleshooting"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Deployment Pipeline Refresh",
+          "role": "Engineering Manager",
+          "impact": "Increased operational visibility",
+          "technologies": [
+            "Engineering Management",
+            "Hiring",
+            "Roadmapping",
+            "Agile Delivery"
+          ]
+        },
+        {
+          "name": "Internal Skills Marketplace",
+          "role": "Contributor",
+          "impact": "Helped map employee skills to upcoming project needs",
+          "technologies": [
+            "PostgreSQL",
+            "REST APIs",
+            "React"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Georgia Tech",
+          "degree": "B.S. Software Engineering",
+          "year": "2017"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Certified Kubernetes Application Developer",
+          "status": "Active"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/casey-johnson",
+        "github": "https://github.example.com/caseyjohnson",
+        "portfolioHighlights": []
+      },
+      "internalProfileData": {
+        "employeeId": "PC-1006",
+        "manager": "Chris Moreno",
+        "performanceRating": 4.4,
+        "promotionReadiness": "Ready now",
+        "availabilityForNewWork": "2 weeks",
+        "careerInterests": [
+          "AI features",
+          "Product engineering"
+        ],
+        "internalNotes": "Prefers focused technical work over frequent context switching."
+      },
+      "metadata": {
+        "tags": [
+          "software",
+          "internal",
+          "ProCom",
+          "engineering_manager"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "procom_emp_1007",
+      "personType": "internal_employee",
+      "domain": "software",
+      "currentCompany": "ProCom",
+      "profile": {
+        "firstName": "Quinn",
+        "lastName": "Kim",
+        "displayName": "Quinn Kim",
+        "headline": "QA Automation Lead",
+        "level": "Staff",
+        "location": {
+          "city": "Denver",
+          "state": "CO",
+          "remoteStatus": "Hybrid"
+        }
+      },
+      "summary": "QA Automation Lead at ProCom with experience delivering production software for enterprise customers. Known for combining hands-on technical execution with practical documentation and strong team collaboration.",
+      "skills": {
+        "primary": [
+          "Cypress",
+          "Selenium",
+          "Playwright",
+          "Test Strategy",
+          "CI/CD",
+          "API Testing"
+        ],
+        "secondary": [],
+        "softSkills": [
+          "Client Communication",
+          "Documentation",
+          "Problem Solving"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "ProCom",
+          "title": "QA Automation Lead",
+          "startDate": "2023-07",
+          "endDate": null,
+          "highlights": [
+            "Led delivery of a business-critical platform feature",
+            "Improved team documentation and onboarding materials"
+          ]
+        },
+        {
+          "company": "CivicCloud",
+          "title": "Systems Engineer",
+          "startDate": "2018-03",
+          "endDate": "2023-01",
+          "highlights": [
+            "Built internal tools and customer-facing APIs",
+            "Supported releases and production troubleshooting"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "AI Support Assistant",
+          "role": "QA Automation Lead",
+          "impact": "Reduced release friction",
+          "technologies": [
+            "Cypress",
+            "Selenium",
+            "Playwright",
+            "Test Strategy"
+          ]
+        },
+        {
+          "name": "Internal Skills Marketplace",
+          "role": "Contributor",
+          "impact": "Helped map employee skills to upcoming project needs",
+          "technologies": [
+            "PostgreSQL",
+            "REST APIs",
+            "React"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "M.S. Computer Science",
+          "year": "2018"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Scrum Master",
+          "status": "Expired"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/quinn-kim",
+        "github": "https://github.example.com/quinnkim",
+        "portfolioHighlights": [
+          "Open-source contribution",
+          "Conference lightning talk"
+        ]
+      },
+      "internalProfileData": {
+        "employeeId": "PC-1007",
+        "manager": "Dana Walsh",
+        "performanceRating": 4.7,
+        "promotionReadiness": "Developing",
+        "availabilityForNewWork": "1 month",
+        "careerInterests": [
+          "Leadership",
+          "Platform strategy"
+        ],
+        "internalNotes": "Strong candidate for cross-functional initiatives."
+      },
+      "metadata": {
+        "tags": [
+          "software",
+          "internal",
+          "ProCom",
+          "qa_automation_lead"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "procom_emp_1008",
+      "personType": "internal_employee",
+      "domain": "software",
+      "currentCompany": "ProCom",
+      "profile": {
+        "firstName": "Jamie",
+        "lastName": "Martinez",
+        "displayName": "Jamie Martinez",
+        "headline": "Mobile Engineer",
+        "level": "Lead",
+        "location": {
+          "city": "Chicago",
+          "state": "IL",
+          "remoteStatus": "Remote"
+        }
+      },
+      "summary": "Mobile Engineer at ProCom with experience delivering production software for enterprise customers. Known for combining hands-on technical execution with practical documentation and strong team collaboration.",
+      "skills": {
+        "primary": [
+          "Kotlin",
+          "Swift",
+          "React Native",
+          "Mobile CI/CD",
+          "Firebase",
+          "App Store Release"
+        ],
+        "secondary": [],
+        "softSkills": [
+          "Leadership",
+          "Prioritization",
+          "Stakeholder Management"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "ProCom",
+          "title": "Mobile Engineer",
+          "startDate": "2024-08",
+          "endDate": null,
+          "highlights": [
+            "Led delivery of a business-critical platform feature",
+            "Improved team documentation and onboarding materials"
+          ]
+        },
+        {
+          "company": "DataForge",
+          "title": "Technical Lead",
+          "startDate": "2019-03",
+          "endDate": "2024-01",
+          "highlights": [
+            "Built internal tools and customer-facing APIs",
+            "Supported releases and production troubleshooting"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Usage Analytics Platform",
+          "role": "Mobile Engineer",
+          "impact": "Improved customer self-service",
+          "technologies": [
+            "Kotlin",
+            "Swift",
+            "React Native",
+            "Mobile CI/CD"
+          ]
+        },
+        {
+          "name": "Internal Skills Marketplace",
+          "role": "Contributor",
+          "impact": "Helped map employee skills to upcoming project needs",
+          "technologies": [
+            "PostgreSQL",
+            "REST APIs",
+            "React"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Arizona State University",
+          "degree": "B.A. Mathematics",
+          "year": "2019"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Security+",
+          "status": "In Progress"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/jamie-martinez",
+        "github": "https://github.example.com/jamiemartinez",
+        "portfolioHighlights": []
+      },
+      "internalProfileData": {
+        "employeeId": "PC-1008",
+        "manager": "Lee Brennan",
+        "performanceRating": 3.9,
+        "promotionReadiness": "Strong in current role",
+        "availabilityForNewWork": "Limited capacity",
+        "careerInterests": [
+          "Security",
+          "Compliance"
+        ],
+        "internalNotes": "Prefers focused technical work over frequent context switching."
+      },
+      "metadata": {
+        "tags": [
+          "software",
+          "internal",
+          "ProCom",
+          "mobile_engineer"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "procom_emp_1009",
+      "personType": "internal_employee",
+      "domain": "software",
+      "currentCompany": "ProCom",
+      "profile": {
+        "firstName": "Alex",
+        "lastName": "Olsen",
+        "displayName": "Alex Olsen",
+        "headline": "Security Engineer",
+        "level": "Mid",
+        "location": {
+          "city": "Atlanta",
+          "state": "GA",
+          "remoteStatus": "On-site"
+        }
+      },
+      "summary": "Security Engineer at ProCom with experience delivering production software for enterprise customers. Known for combining hands-on technical execution with practical documentation and strong team collaboration.",
+      "skills": {
+        "primary": [
+          "IAM",
+          "OAuth",
+          "SAST",
+          "Threat Modeling",
+          "SIEM",
+          "Cloud Security"
+        ],
+        "secondary": [
+          "Incident Response"
+        ],
+        "softSkills": [
+          "Calm Under Pressure",
+          "Ownership",
+          "Coaching"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "ProCom",
+          "title": "Security Engineer",
+          "startDate": "2021-09",
+          "endDate": null,
+          "highlights": [
+            "Led delivery of a business-critical platform feature",
+            "Improved team documentation and onboarding materials"
+          ]
+        },
+        {
+          "company": "BrightLayer",
+          "title": "Software Engineer",
+          "startDate": "2016-03",
+          "endDate": "2021-01",
+          "highlights": [
+            "Built internal tools and customer-facing APIs",
+            "Supported releases and production troubleshooting"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Customer Portal Modernization",
+          "role": "Security Engineer",
+          "impact": "Increased operational visibility",
+          "technologies": [
+            "IAM",
+            "OAuth",
+            "SAST",
+            "Threat Modeling"
+          ]
+        },
+        {
+          "name": "Internal Skills Marketplace",
+          "role": "Contributor",
+          "impact": "Helped map employee skills to upcoming project needs",
+          "technologies": [
+            "PostgreSQL",
+            "REST APIs",
+            "React"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "University of Iowa",
+          "degree": "B.S. Computer Science",
+          "year": "2012"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "AWS Certified Developer",
+          "status": "Active"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/alex-olsen",
+        "github": "https://github.example.com/alexolsen",
+        "portfolioHighlights": []
+      },
+      "internalProfileData": {
+        "employeeId": "PC-1009",
+        "manager": "Chris Moreno",
+        "performanceRating": 4.1,
+        "promotionReadiness": "Ready in 6-12 months",
+        "availabilityForNewWork": "Immediately",
+        "careerInterests": [
+          "Architecture",
+          "Mentoring"
+        ],
+        "internalNotes": "Strong candidate for cross-functional initiatives."
+      },
+      "metadata": {
+        "tags": [
+          "software",
+          "internal",
+          "ProCom",
+          "security_engineer"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "procom_emp_1010",
+      "personType": "internal_employee",
+      "domain": "software",
+      "currentCompany": "ProCom",
+      "profile": {
+        "firstName": "Cameron",
+        "lastName": "Singh",
+        "displayName": "Cameron Singh",
+        "headline": "Data Engineer",
+        "level": "Senior",
+        "location": {
+          "city": "Seattle",
+          "state": "WA",
+          "remoteStatus": "Hybrid"
+        }
+      },
+      "summary": "Data Engineer at ProCom with experience delivering production software for enterprise customers. Known for combining hands-on technical execution with practical documentation and strong team collaboration.",
+      "skills": {
+        "primary": [
+          "Spark",
+          "Snowflake",
+          "dbt",
+          "Airflow",
+          "Python",
+          "SQL"
+        ],
+        "secondary": [
+          "Data Modeling"
+        ],
+        "softSkills": [
+          "Analytical Thinking",
+          "Curiosity",
+          "Adaptability"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "ProCom",
+          "title": "Data Engineer",
+          "startDate": "2022-01",
+          "endDate": null,
+          "highlights": [
+            "Led delivery of a business-critical platform feature",
+            "Improved team documentation and onboarding materials"
+          ]
+        },
+        {
+          "company": "Northstar Apps",
+          "title": "Developer",
+          "startDate": "2017-03",
+          "endDate": "2022-01",
+          "highlights": [
+            "Built internal tools and customer-facing APIs",
+            "Supported releases and production troubleshooting"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Deployment Pipeline Refresh",
+          "role": "Data Engineer",
+          "impact": "Reduced release friction",
+          "technologies": [
+            "Spark",
+            "Snowflake",
+            "dbt",
+            "Airflow"
+          ]
+        },
+        {
+          "name": "Internal Skills Marketplace",
+          "role": "Contributor",
+          "impact": "Helped map employee skills to upcoming project needs",
+          "technologies": [
+            "PostgreSQL",
+            "REST APIs",
+            "React"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Georgia Tech",
+          "degree": "B.S. Software Engineering",
+          "year": "2013"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Certified Kubernetes Application Developer",
+          "status": "Active"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/cameron-singh",
+        "github": "https://github.example.com/cameronsingh",
+        "portfolioHighlights": [
+          "Open-source contribution",
+          "Conference lightning talk"
+        ]
+      },
+      "internalProfileData": {
+        "employeeId": "PC-1010",
+        "manager": "Dana Walsh",
+        "performanceRating": 4.4,
+        "promotionReadiness": "Ready now",
+        "availabilityForNewWork": "2 weeks",
+        "careerInterests": [
+          "AI features",
+          "Product engineering"
+        ],
+        "internalNotes": "Prefers focused technical work over frequent context switching."
+      },
+      "metadata": {
+        "tags": [
+          "software",
+          "internal",
+          "ProCom",
+          "data_engineer"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "conspro_emp_2001",
+      "personType": "internal_employee",
+      "domain": "managed_it_services",
+      "currentCompany": "ConsPro",
+      "profile": {
+        "firstName": "Sam",
+        "lastName": "Ramirez",
+        "displayName": "Sam Ramirez",
+        "headline": "Help Desk Technician II",
+        "level": "Level I",
+        "location": {
+          "city": "Nashville",
+          "state": "TN",
+          "remoteStatus": "Hybrid"
+        }
+      },
+      "summary": "Help Desk Technician II at ConsPro with experience supporting managed services clients across infrastructure, endpoints, cloud administration, and operational escalations.",
+      "skills": {
+        "primary": [
+          "Windows 11",
+          "Active Directory",
+          "Ticket Triage",
+          "Remote Support",
+          "Hardware Repair",
+          "Office 365"
+        ],
+        "secondary": [],
+        "softSkills": [
+          "Client Communication",
+          "Documentation",
+          "Problem Solving"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "ConsPro",
+          "title": "Help Desk Technician II",
+          "startDate": "2020-01",
+          "endDate": null,
+          "highlights": [
+            "Supported multiple managed-service clients",
+            "Improved ticket documentation and escalation playbooks"
+          ]
+        },
+        {
+          "company": "Metro MSP",
+          "title": "Support Technician",
+          "startDate": "2015-02",
+          "endDate": "2020-01",
+          "highlights": [
+            "Resolved user issues across Windows and cloud platforms",
+            "Participated in after-hours maintenance windows"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Client Endpoint Refresh",
+          "role": "Help Desk Technician II",
+          "impact": "Reduced recurring tickets",
+          "technologies": [
+            "Windows 11",
+            "Active Directory",
+            "Ticket Triage",
+            "Remote Support"
+          ]
+        },
+        {
+          "name": "Service Desk Knowledge Base",
+          "role": "Contributor",
+          "impact": "Reduced repeat escalations by improving troubleshooting guides",
+          "technologies": [
+            "Documentation",
+            "Ticketing",
+            "Client Support"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Community College of Denver",
+          "degree": "A.A.S. Information Technology",
+          "year": "2010"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "CompTIA A+",
+          "status": "Active"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/sam-ramirez",
+        "resumeNotes": "Strong client-facing support background."
+      },
+      "internalProfileData": {
+        "employeeId": "CP-2001",
+        "manager": "Pat Morgan",
+        "billableUtilization": 72,
+        "onCallEligible": true,
+        "availabilityForNewWork": "Immediately",
+        "clientFit": [
+          "Healthcare",
+          "Small business"
+        ],
+        "internalNotes": "Trusted with sensitive client escalations."
+      },
+      "metadata": {
+        "tags": [
+          "managed_it_services",
+          "internal",
+          "ConsPro",
+          "help_desk_technician_ii"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "conspro_emp_2002",
+      "personType": "internal_employee",
+      "domain": "managed_it_services",
+      "currentCompany": "ConsPro",
+      "profile": {
+        "firstName": "Drew",
+        "lastName": "Foster",
+        "displayName": "Drew Foster",
+        "headline": "Systems Administrator",
+        "level": "Level II",
+        "location": {
+          "city": "Charlotte",
+          "state": "NC",
+          "remoteStatus": "On-site"
+        }
+      },
+      "summary": "Systems Administrator at ConsPro with experience supporting managed services clients across infrastructure, endpoints, cloud administration, and operational escalations.",
+      "skills": {
+        "primary": [
+          "VMware",
+          "Hyper-V",
+          "Windows Server",
+          "PowerShell",
+          "Backup Systems",
+          "Storage"
+        ],
+        "secondary": [],
+        "softSkills": [
+          "Leadership",
+          "Prioritization",
+          "Stakeholder Management"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "ConsPro",
+          "title": "Systems Administrator",
+          "startDate": "2021-02",
+          "endDate": null,
+          "highlights": [
+            "Supported multiple managed-service clients",
+            "Improved ticket documentation and escalation playbooks"
+          ]
+        },
+        {
+          "company": "Regional Health IT",
+          "title": "Systems Specialist",
+          "startDate": "2016-02",
+          "endDate": "2021-01",
+          "highlights": [
+            "Resolved user issues across Windows and cloud platforms",
+            "Participated in after-hours maintenance windows"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Azure Tenant Cleanup",
+          "role": "Systems Administrator",
+          "impact": "Improved client security posture",
+          "technologies": [
+            "VMware",
+            "Hyper-V",
+            "Windows Server",
+            "PowerShell"
+          ]
+        },
+        {
+          "name": "Service Desk Knowledge Base",
+          "role": "Contributor",
+          "impact": "Reduced repeat escalations by improving troubleshooting guides",
+          "technologies": [
+            "Documentation",
+            "Ticketing",
+            "Client Support"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Western Governors University",
+          "degree": "B.S. IT Management",
+          "year": "2011"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Network+",
+          "status": "Active"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/drew-foster",
+        "resumeNotes": "Strong client-facing support background."
+      },
+      "internalProfileData": {
+        "employeeId": "CP-2002",
+        "manager": "Renee Brooks",
+        "billableUtilization": 81,
+        "onCallEligible": false,
+        "availabilityForNewWork": "Next sprint",
+        "clientFit": [
+          "Legal",
+          "Professional services"
+        ],
+        "internalNotes": "Strong trainer for junior technicians."
+      },
+      "metadata": {
+        "tags": [
+          "managed_it_services",
+          "internal",
+          "ConsPro",
+          "systems_administrator"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "conspro_emp_2003",
+      "personType": "internal_employee",
+      "domain": "managed_it_services",
+      "currentCompany": "ConsPro",
+      "profile": {
+        "firstName": "Parker",
+        "lastName": "Chen",
+        "displayName": "Parker Chen",
+        "headline": "Network Engineer",
+        "level": "Senior",
+        "location": {
+          "city": "Phoenix",
+          "state": "AZ",
+          "remoteStatus": "Remote"
+        }
+      },
+      "summary": "Network Engineer at ConsPro with experience supporting managed services clients across infrastructure, endpoints, cloud administration, and operational escalations.",
+      "skills": {
+        "primary": [
+          "Cisco",
+          "Fortinet",
+          "VLANs",
+          "BGP",
+          "Firewall Rules",
+          "Wi-Fi Troubleshooting"
+        ],
+        "secondary": [],
+        "softSkills": [
+          "Calm Under Pressure",
+          "Ownership",
+          "Coaching"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "ConsPro",
+          "title": "Network Engineer",
+          "startDate": "2022-03",
+          "endDate": null,
+          "highlights": [
+            "Supported multiple managed-service clients",
+            "Improved ticket documentation and escalation playbooks"
+          ]
+        },
+        {
+          "company": "County Tech Services",
+          "title": "Network Technician",
+          "startDate": "2017-02",
+          "endDate": "2022-01",
+          "highlights": [
+            "Resolved user issues across Windows and cloud platforms",
+            "Participated in after-hours maintenance windows"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Firewall Migration",
+          "role": "Network Engineer",
+          "impact": "Standardized client environments",
+          "technologies": [
+            "Cisco",
+            "Fortinet",
+            "VLANs",
+            "BGP"
+          ]
+        },
+        {
+          "name": "Service Desk Knowledge Base",
+          "role": "Contributor",
+          "impact": "Reduced repeat escalations by improving troubleshooting guides",
+          "technologies": [
+            "Documentation",
+            "Ticketing",
+            "Client Support"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "State Technical College",
+          "degree": "Certificate in Network Administration",
+          "year": "2012"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Microsoft 365 Certified: Administrator",
+          "status": "In Progress"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/parker-chen",
+        "resumeNotes": "Strong client-facing support background."
+      },
+      "internalProfileData": {
+        "employeeId": "CP-2003",
+        "manager": "Jordan Ellis",
+        "billableUtilization": 65,
+        "onCallEligible": true,
+        "availabilityForNewWork": "After client handoff",
+        "clientFit": [
+          "Manufacturing",
+          "Retail"
+        ],
+        "internalNotes": "Trusted with sensitive client escalations."
+      },
+      "metadata": {
+        "tags": [
+          "managed_it_services",
+          "internal",
+          "ConsPro",
+          "network_engineer"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "conspro_emp_2004",
+      "personType": "internal_employee",
+      "domain": "managed_it_services",
+      "currentCompany": "ConsPro",
+      "profile": {
+        "firstName": "Reese",
+        "lastName": "Wallace",
+        "displayName": "Reese Wallace",
+        "headline": "Cloud Administrator",
+        "level": "Lead",
+        "location": {
+          "city": "Columbus",
+          "state": "OH",
+          "remoteStatus": "Hybrid"
+        }
+      },
+      "summary": "Cloud Administrator at ConsPro with experience supporting managed services clients across infrastructure, endpoints, cloud administration, and operational escalations.",
+      "skills": {
+        "primary": [
+          "Azure",
+          "Entra ID",
+          "Conditional Access",
+          "Intune",
+          "Azure Virtual Desktop",
+          "PowerShell"
+        ],
+        "secondary": [],
+        "softSkills": [
+          "Analytical Thinking",
+          "Curiosity",
+          "Adaptability"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "ConsPro",
+          "title": "Cloud Administrator",
+          "startDate": "2023-04",
+          "endDate": null,
+          "highlights": [
+            "Supported multiple managed-service clients",
+            "Improved ticket documentation and escalation playbooks"
+          ]
+        },
+        {
+          "company": "RetailOps Support",
+          "title": "IT Coordinator",
+          "startDate": "2018-02",
+          "endDate": "2023-01",
+          "highlights": [
+            "Resolved user issues across Windows and cloud platforms",
+            "Participated in after-hours maintenance windows"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "M365 Security Baseline",
+          "role": "Cloud Administrator",
+          "impact": "Reduced recurring tickets",
+          "technologies": [
+            "Azure",
+            "Entra ID",
+            "Conditional Access",
+            "Intune"
+          ]
+        },
+        {
+          "name": "Service Desk Knowledge Base",
+          "role": "Contributor",
+          "impact": "Reduced repeat escalations by improving troubleshooting guides",
+          "technologies": [
+            "Documentation",
+            "Ticketing",
+            "Client Support"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "University of Central Florida",
+          "degree": "B.S. Cybersecurity",
+          "year": "2013"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "CCNA",
+          "status": "Expired"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/reese-wallace",
+        "resumeNotes": "Strong client-facing support background."
+      },
+      "internalProfileData": {
+        "employeeId": "CP-2004",
+        "manager": "Pat Morgan",
+        "billableUtilization": 88,
+        "onCallEligible": false,
+        "availabilityForNewWork": "Limited travel only",
+        "clientFit": [
+          "Education",
+          "Nonprofit"
+        ],
+        "internalNotes": "Strong trainer for junior technicians."
+      },
+      "metadata": {
+        "tags": [
+          "managed_it_services",
+          "internal",
+          "ConsPro",
+          "cloud_administrator"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "conspro_emp_2005",
+      "personType": "internal_employee",
+      "domain": "managed_it_services",
+      "currentCompany": "ConsPro",
+      "profile": {
+        "firstName": "Hayden",
+        "lastName": "Bennett",
+        "displayName": "Hayden Bennett",
+        "headline": "Microsoft 365 Specialist",
+        "level": "Level I",
+        "location": {
+          "city": "Tampa",
+          "state": "FL",
+          "remoteStatus": "Field"
+        }
+      },
+      "summary": "Microsoft 365 Specialist at ConsPro with experience supporting managed services clients across infrastructure, endpoints, cloud administration, and operational escalations.",
+      "skills": {
+        "primary": [
+          "Microsoft 365",
+          "Exchange Online",
+          "Teams",
+          "SharePoint",
+          "OneDrive",
+          "Email Security"
+        ],
+        "secondary": [],
+        "softSkills": [
+          "Mentoring",
+          "Clear Communication",
+          "Cross-functional Collaboration"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "ConsPro",
+          "title": "Microsoft 365 Specialist",
+          "startDate": "2024-05",
+          "endDate": null,
+          "highlights": [
+            "Supported multiple managed-service clients",
+            "Improved ticket documentation and escalation playbooks"
+          ]
+        },
+        {
+          "company": "Metro MSP",
+          "title": "Support Technician",
+          "startDate": "2019-02",
+          "endDate": "2024-01",
+          "highlights": [
+            "Resolved user issues across Windows and cloud platforms",
+            "Participated in after-hours maintenance windows"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Client Endpoint Refresh",
+          "role": "Microsoft 365 Specialist",
+          "impact": "Improved client security posture",
+          "technologies": [
+            "Microsoft 365",
+            "Exchange Online",
+            "Teams",
+            "SharePoint"
+          ]
+        },
+        {
+          "name": "Service Desk Knowledge Base",
+          "role": "Contributor",
+          "impact": "Reduced repeat escalations by improving troubleshooting guides",
+          "technologies": [
+            "Documentation",
+            "Ticketing",
+            "Client Support"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Community College of Denver",
+          "degree": "A.A.S. Information Technology",
+          "year": "2014"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "CompTIA A+",
+          "status": "Active"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/hayden-bennett",
+        "resumeNotes": "Strong client-facing support background."
+      },
+      "internalProfileData": {
+        "employeeId": "CP-2005",
+        "manager": "Renee Brooks",
+        "billableUtilization": 72,
+        "onCallEligible": true,
+        "availabilityForNewWork": "Immediately",
+        "clientFit": [
+          "Healthcare",
+          "Small business"
+        ],
+        "internalNotes": "Trusted with sensitive client escalations."
+      },
+      "metadata": {
+        "tags": [
+          "managed_it_services",
+          "internal",
+          "ConsPro",
+          "microsoft_365_specialist"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "conspro_emp_2006",
+      "personType": "internal_employee",
+      "domain": "managed_it_services",
+      "currentCompany": "ConsPro",
+      "profile": {
+        "firstName": "Skyler",
+        "lastName": "Davis",
+        "displayName": "Skyler Davis",
+        "headline": "Cybersecurity Analyst",
+        "level": "Level II",
+        "location": {
+          "city": "Nashville",
+          "state": "TN",
+          "remoteStatus": "Hybrid"
+        }
+      },
+      "summary": "Cybersecurity Analyst at ConsPro with experience supporting managed services clients across infrastructure, endpoints, cloud administration, and operational escalations.",
+      "skills": {
+        "primary": [
+          "Microsoft Defender",
+          "Sentinel",
+          "Phishing Analysis",
+          "Vulnerability Management",
+          "Incident Response"
+        ],
+        "secondary": [],
+        "softSkills": [
+          "Client Communication",
+          "Documentation",
+          "Problem Solving"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "ConsPro",
+          "title": "Cybersecurity Analyst",
+          "startDate": "2020-06",
+          "endDate": null,
+          "highlights": [
+            "Supported multiple managed-service clients",
+            "Improved ticket documentation and escalation playbooks"
+          ]
+        },
+        {
+          "company": "Regional Health IT",
+          "title": "Systems Specialist",
+          "startDate": "2015-02",
+          "endDate": "2020-01",
+          "highlights": [
+            "Resolved user issues across Windows and cloud platforms",
+            "Participated in after-hours maintenance windows"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Azure Tenant Cleanup",
+          "role": "Cybersecurity Analyst",
+          "impact": "Standardized client environments",
+          "technologies": [
+            "Microsoft Defender",
+            "Sentinel",
+            "Phishing Analysis",
+            "Vulnerability Management"
+          ]
+        },
+        {
+          "name": "Service Desk Knowledge Base",
+          "role": "Contributor",
+          "impact": "Reduced repeat escalations by improving troubleshooting guides",
+          "technologies": [
+            "Documentation",
+            "Ticketing",
+            "Client Support"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Western Governors University",
+          "degree": "B.S. IT Management",
+          "year": "2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Network+",
+          "status": "Active"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/skyler-davis",
+        "resumeNotes": "Strong client-facing support background."
+      },
+      "internalProfileData": {
+        "employeeId": "CP-2006",
+        "manager": "Jordan Ellis",
+        "billableUtilization": 81,
+        "onCallEligible": false,
+        "availabilityForNewWork": "Next sprint",
+        "clientFit": [
+          "Legal",
+          "Professional services"
+        ],
+        "internalNotes": "Strong trainer for junior technicians."
+      },
+      "metadata": {
+        "tags": [
+          "managed_it_services",
+          "internal",
+          "ConsPro",
+          "cybersecurity_analyst"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "conspro_emp_2007",
+      "personType": "internal_employee",
+      "domain": "managed_it_services",
+      "currentCompany": "ConsPro",
+      "profile": {
+        "firstName": "Rowan",
+        "lastName": "Shah",
+        "displayName": "Rowan Shah",
+        "headline": "SOC Analyst",
+        "level": "Senior",
+        "location": {
+          "city": "Charlotte",
+          "state": "NC",
+          "remoteStatus": "On-site"
+        }
+      },
+      "summary": "SOC Analyst at ConsPro with experience supporting managed services clients across infrastructure, endpoints, cloud administration, and operational escalations.",
+      "skills": {
+        "primary": [
+          "SOC Monitoring",
+          "SIEM",
+          "Alert Triage",
+          "Endpoint Logs",
+          "Escalation Procedures"
+        ],
+        "secondary": [],
+        "softSkills": [
+          "Leadership",
+          "Prioritization",
+          "Stakeholder Management"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "ConsPro",
+          "title": "SOC Analyst",
+          "startDate": "2021-07",
+          "endDate": null,
+          "highlights": [
+            "Supported multiple managed-service clients",
+            "Improved ticket documentation and escalation playbooks"
+          ]
+        },
+        {
+          "company": "County Tech Services",
+          "title": "Network Technician",
+          "startDate": "2016-02",
+          "endDate": "2021-01",
+          "highlights": [
+            "Resolved user issues across Windows and cloud platforms",
+            "Participated in after-hours maintenance windows"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Firewall Migration",
+          "role": "SOC Analyst",
+          "impact": "Reduced recurring tickets",
+          "technologies": [
+            "SOC Monitoring",
+            "SIEM",
+            "Alert Triage",
+            "Endpoint Logs"
+          ]
+        },
+        {
+          "name": "Service Desk Knowledge Base",
+          "role": "Contributor",
+          "impact": "Reduced repeat escalations by improving troubleshooting guides",
+          "technologies": [
+            "Documentation",
+            "Ticketing",
+            "Client Support"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "State Technical College",
+          "degree": "Certificate in Network Administration",
+          "year": "2016"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Microsoft 365 Certified: Administrator",
+          "status": "In Progress"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/rowan-shah",
+        "resumeNotes": "Strong client-facing support background."
+      },
+      "internalProfileData": {
+        "employeeId": "CP-2007",
+        "manager": "Pat Morgan",
+        "billableUtilization": 65,
+        "onCallEligible": true,
+        "availabilityForNewWork": "After client handoff",
+        "clientFit": [
+          "Manufacturing",
+          "Retail"
+        ],
+        "internalNotes": "Trusted with sensitive client escalations."
+      },
+      "metadata": {
+        "tags": [
+          "managed_it_services",
+          "internal",
+          "ConsPro",
+          "soc_analyst"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "conspro_emp_2008",
+      "personType": "internal_employee",
+      "domain": "managed_it_services",
+      "currentCompany": "ConsPro",
+      "profile": {
+        "firstName": "Emerson",
+        "lastName": "Miller",
+        "displayName": "Emerson Miller",
+        "headline": "IT Project Manager",
+        "level": "Lead",
+        "location": {
+          "city": "Phoenix",
+          "state": "AZ",
+          "remoteStatus": "Remote"
+        }
+      },
+      "summary": "IT Project Manager at ConsPro with experience supporting managed services clients across infrastructure, endpoints, cloud administration, and operational escalations.",
+      "skills": {
+        "primary": [
+          "IT Project Management",
+          "Client Onboarding",
+          "Change Management",
+          "Budget Tracking",
+          "Vendor Coordination"
+        ],
+        "secondary": [],
+        "softSkills": [
+          "Calm Under Pressure",
+          "Ownership",
+          "Coaching"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "ConsPro",
+          "title": "IT Project Manager",
+          "startDate": "2022-08",
+          "endDate": null,
+          "highlights": [
+            "Supported multiple managed-service clients",
+            "Improved ticket documentation and escalation playbooks"
+          ]
+        },
+        {
+          "company": "RetailOps Support",
+          "title": "IT Coordinator",
+          "startDate": "2017-02",
+          "endDate": "2022-01",
+          "highlights": [
+            "Resolved user issues across Windows and cloud platforms",
+            "Participated in after-hours maintenance windows"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "M365 Security Baseline",
+          "role": "IT Project Manager",
+          "impact": "Improved client security posture",
+          "technologies": [
+            "IT Project Management",
+            "Client Onboarding",
+            "Change Management",
+            "Budget Tracking"
+          ]
+        },
+        {
+          "name": "Service Desk Knowledge Base",
+          "role": "Contributor",
+          "impact": "Reduced repeat escalations by improving troubleshooting guides",
+          "technologies": [
+            "Documentation",
+            "Ticketing",
+            "Client Support"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "University of Central Florida",
+          "degree": "B.S. Cybersecurity",
+          "year": "2017"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "CCNA",
+          "status": "Expired"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/emerson-miller",
+        "resumeNotes": "Strong client-facing support background."
+      },
+      "internalProfileData": {
+        "employeeId": "CP-2008",
+        "manager": "Renee Brooks",
+        "billableUtilization": 88,
+        "onCallEligible": false,
+        "availabilityForNewWork": "Limited travel only",
+        "clientFit": [
+          "Education",
+          "Nonprofit"
+        ],
+        "internalNotes": "Strong trainer for junior technicians."
+      },
+      "metadata": {
+        "tags": [
+          "managed_it_services",
+          "internal",
+          "ConsPro",
+          "it_project_manager"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "conspro_emp_2009",
+      "personType": "internal_employee",
+      "domain": "managed_it_services",
+      "currentCompany": "ConsPro",
+      "profile": {
+        "firstName": "Finley",
+        "lastName": "Hayes",
+        "displayName": "Finley Hayes",
+        "headline": "Endpoint Engineer",
+        "level": "Level I",
+        "location": {
+          "city": "Columbus",
+          "state": "OH",
+          "remoteStatus": "Hybrid"
+        }
+      },
+      "summary": "Endpoint Engineer at ConsPro with experience supporting managed services clients across infrastructure, endpoints, cloud administration, and operational escalations.",
+      "skills": {
+        "primary": [
+          "Intune",
+          "Autopilot",
+          "Endpoint Compliance",
+          "Patch Management",
+          "MDM",
+          "Application Packaging"
+        ],
+        "secondary": [],
+        "softSkills": [
+          "Analytical Thinking",
+          "Curiosity",
+          "Adaptability"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "ConsPro",
+          "title": "Endpoint Engineer",
+          "startDate": "2023-09",
+          "endDate": null,
+          "highlights": [
+            "Supported multiple managed-service clients",
+            "Improved ticket documentation and escalation playbooks"
+          ]
+        },
+        {
+          "company": "Metro MSP",
+          "title": "Support Technician",
+          "startDate": "2018-02",
+          "endDate": "2023-01",
+          "highlights": [
+            "Resolved user issues across Windows and cloud platforms",
+            "Participated in after-hours maintenance windows"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Client Endpoint Refresh",
+          "role": "Endpoint Engineer",
+          "impact": "Standardized client environments",
+          "technologies": [
+            "Intune",
+            "Autopilot",
+            "Endpoint Compliance",
+            "Patch Management"
+          ]
+        },
+        {
+          "name": "Service Desk Knowledge Base",
+          "role": "Contributor",
+          "impact": "Reduced repeat escalations by improving troubleshooting guides",
+          "technologies": [
+            "Documentation",
+            "Ticketing",
+            "Client Support"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Community College of Denver",
+          "degree": "A.A.S. Information Technology",
+          "year": "2018"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "CompTIA A+",
+          "status": "Active"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/finley-hayes",
+        "resumeNotes": "Strong client-facing support background."
+      },
+      "internalProfileData": {
+        "employeeId": "CP-2009",
+        "manager": "Jordan Ellis",
+        "billableUtilization": 72,
+        "onCallEligible": true,
+        "availabilityForNewWork": "Immediately",
+        "clientFit": [
+          "Healthcare",
+          "Small business"
+        ],
+        "internalNotes": "Trusted with sensitive client escalations."
+      },
+      "metadata": {
+        "tags": [
+          "managed_it_services",
+          "internal",
+          "ConsPro",
+          "endpoint_engineer"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "conspro_emp_2010",
+      "personType": "internal_employee",
+      "domain": "managed_it_services",
+      "currentCompany": "ConsPro",
+      "profile": {
+        "firstName": "Dakota",
+        "lastName": "Robinson",
+        "displayName": "Dakota Robinson",
+        "headline": "Field Technician",
+        "level": "Level II",
+        "location": {
+          "city": "Tampa",
+          "state": "FL",
+          "remoteStatus": "Field"
+        }
+      },
+      "summary": "Field Technician at ConsPro with experience supporting managed services clients across infrastructure, endpoints, cloud administration, and operational escalations.",
+      "skills": {
+        "primary": [
+          "Field Support",
+          "Printer Repair",
+          "Cabling",
+          "Point of Sale",
+          "Network Closets",
+          "Client Training"
+        ],
+        "secondary": [],
+        "softSkills": [
+          "Mentoring",
+          "Clear Communication",
+          "Cross-functional Collaboration"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "ConsPro",
+          "title": "Field Technician",
+          "startDate": "2024-01",
+          "endDate": null,
+          "highlights": [
+            "Supported multiple managed-service clients",
+            "Improved ticket documentation and escalation playbooks"
+          ]
+        },
+        {
+          "company": "Regional Health IT",
+          "title": "Systems Specialist",
+          "startDate": "2019-02",
+          "endDate": "2024-01",
+          "highlights": [
+            "Resolved user issues across Windows and cloud platforms",
+            "Participated in after-hours maintenance windows"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Azure Tenant Cleanup",
+          "role": "Field Technician",
+          "impact": "Reduced recurring tickets",
+          "technologies": [
+            "Field Support",
+            "Printer Repair",
+            "Cabling",
+            "Point of Sale"
+          ]
+        },
+        {
+          "name": "Service Desk Knowledge Base",
+          "role": "Contributor",
+          "impact": "Reduced repeat escalations by improving troubleshooting guides",
+          "technologies": [
+            "Documentation",
+            "Ticketing",
+            "Client Support"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Western Governors University",
+          "degree": "B.S. IT Management",
+          "year": "2019"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Network+",
+          "status": "Active"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/dakota-robinson",
+        "resumeNotes": "Strong client-facing support background."
+      },
+      "internalProfileData": {
+        "employeeId": "CP-2010",
+        "manager": "Pat Morgan",
+        "billableUtilization": 81,
+        "onCallEligible": false,
+        "availabilityForNewWork": "Next sprint",
+        "clientFit": [
+          "Legal",
+          "Professional services"
+        ],
+        "internalNotes": "Strong trainer for junior technicians."
+      },
+      "metadata": {
+        "tags": [
+          "managed_it_services",
+          "internal",
+          "ConsPro",
+          "field_technician"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "external_sw_3001",
+      "personType": "external_candidate",
+      "domain": "software",
+      "currentCompany": "BluePeak Systems",
+      "profile": {
+        "firstName": "Maya",
+        "lastName": "Moore",
+        "displayName": "Maya Moore",
+        "headline": "Game Engine Developer",
+        "level": "Mid",
+        "location": {
+          "city": "Boston",
+          "state": "MA",
+          "remoteStatus": "Remote"
+        }
+      },
+      "summary": "Game Engine Developer with experience building scalable products and collaborating across product, design, and infrastructure teams.",
+      "skills": {
+        "primary": [
+          "Java",
+          "Spring Boot",
+          "Kafka",
+          "PostgreSQL",
+          "AWS",
+          "Docker"
+        ],
+        "secondary": [
+          "Redis",
+          "REST APIs"
+        ],
+        "softSkills": [
+          "Leadership",
+          "Prioritization",
+          "Stakeholder Management"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "BluePeak Systems",
+          "title": "Game Engine Developer",
+          "startDate": "2021-04",
+          "endDate": null,
+          "highlights": [
+            "Delivered production systems used by enterprise customers",
+            "Collaborated with product and design on roadmap tradeoffs"
+          ]
+        },
+        {
+          "company": "Arcbyte",
+          "title": "Software Engineer",
+          "startDate": "2014-06",
+          "endDate": "2021-03",
+          "highlights": [
+            "Built APIs, integrations, and internal tooling",
+            "Improved observability and release confidence"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Real-Time Collaboration Platform",
+          "role": "Game Engine Developer",
+          "impact": "Improved system reliability",
+          "technologies": [
+            "Java",
+            "Spring Boot",
+            "Kafka",
+            "PostgreSQL",
+            "AWS"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "University of Illinois",
+          "degree": "B.S. Computer Science",
+          "year": "2011"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "AWS Solutions Architect",
+          "status": "Active"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/maya-moore",
+        "github": "https://github.example.com/mayamoore",
+        "desiredRoles": [
+          "Senior Engineer",
+          "Staff Engineer",
+          "Technical Lead"
+        ],
+        "availability": "2 weeks notice"
+      },
+      "internalProfileData": {},
+      "metadata": {
+        "tags": [
+          "software",
+          "external_candidate",
+          "resume_ready"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "external_sw_3002",
+      "personType": "external_candidate",
+      "domain": "software",
+      "currentCompany": "OrbitWorks",
+      "profile": {
+        "firstName": "Ethan",
+        "lastName": "Baker",
+        "displayName": "Ethan Baker",
+        "headline": "Embedded Software Engineer",
+        "level": "Senior",
+        "location": {
+          "city": "San Diego",
+          "state": "CA",
+          "remoteStatus": "Hybrid"
+        }
+      },
+      "summary": "Embedded Software Engineer with experience building scalable products and collaborating across product, design, and infrastructure teams.",
+      "skills": {
+        "primary": [
+          "React",
+          "TypeScript",
+          "GraphQL",
+          "Next.js",
+          "Design Systems",
+          "Jest"
+        ],
+        "secondary": [
+          "Figma"
+        ],
+        "softSkills": [
+          "Calm Under Pressure",
+          "Ownership",
+          "Coaching"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "OrbitWorks",
+          "title": "Embedded Software Engineer",
+          "startDate": "2022-04",
+          "endDate": null,
+          "highlights": [
+            "Delivered production systems used by enterprise customers",
+            "Collaborated with product and design on roadmap tradeoffs"
+          ]
+        },
+        {
+          "company": "CloudNest",
+          "title": "Senior Developer",
+          "startDate": "2015-06",
+          "endDate": "2022-03",
+          "highlights": [
+            "Built APIs, integrations, and internal tooling",
+            "Improved observability and release confidence"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "ML Search Prototype",
+          "role": "Embedded Software Engineer",
+          "impact": "Reduced infrastructure cost",
+          "technologies": [
+            "React",
+            "TypeScript",
+            "GraphQL",
+            "Next.js",
+            "Design Systems"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Northeastern University",
+          "degree": "M.S. Software Engineering",
+          "year": "2012"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Google Professional Cloud Developer",
+          "status": "Active"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/ethan-baker",
+        "github": "https://github.example.com/ethanbaker",
+        "desiredRoles": [
+          "Engineering Manager track",
+          "Principal IC"
+        ],
+        "availability": "Immediately"
+      },
+      "internalProfileData": {},
+      "metadata": {
+        "tags": [
+          "software",
+          "external_candidate",
+          "resume_ready"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "external_sw_3003",
+      "personType": "external_candidate",
+      "domain": "software",
+      "currentCompany": "LayerLake",
+      "profile": {
+        "firstName": "Priya",
+        "lastName": "Ahmed",
+        "displayName": "Priya Ahmed",
+        "headline": "AI Engineer",
+        "level": "Lead",
+        "location": {
+          "city": "Minneapolis",
+          "state": "MN",
+          "remoteStatus": "Remote"
+        }
+      },
+      "summary": "AI Engineer with experience building scalable products and collaborating across product, design, and infrastructure teams.",
+      "skills": {
+        "primary": [
+          "Distributed Systems",
+          "Go",
+          "gRPC",
+          "Kubernetes",
+          "Event Sourcing",
+          "System Design"
+        ],
+        "secondary": [],
+        "softSkills": [
+          "Analytical Thinking",
+          "Curiosity",
+          "Adaptability"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "LayerLake",
+          "title": "AI Engineer",
+          "startDate": "2023-04",
+          "endDate": null,
+          "highlights": [
+            "Delivered production systems used by enterprise customers",
+            "Collaborated with product and design on roadmap tradeoffs"
+          ]
+        },
+        {
+          "company": "Logic Harbor",
+          "title": "Technical Lead",
+          "startDate": "2016-06",
+          "endDate": "2023-03",
+          "highlights": [
+            "Built APIs, integrations, and internal tooling",
+            "Improved observability and release confidence"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Billing System Rewrite",
+          "role": "AI Engineer",
+          "impact": "Accelerated customer onboarding",
+          "technologies": [
+            "Distributed Systems",
+            "Go",
+            "gRPC",
+            "Kubernetes",
+            "Event Sourcing"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Texas A&M",
+          "degree": "B.S. Electrical Engineering",
+          "year": "2013"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "CKA",
+          "status": "Active"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/priya-ahmed",
+        "github": "https://github.example.com/priyaahmed",
+        "desiredRoles": [
+          "Senior Engineer",
+          "Staff Engineer",
+          "Technical Lead"
+        ],
+        "availability": "1 month notice"
+      },
+      "internalProfileData": {},
+      "metadata": {
+        "tags": [
+          "software",
+          "external_candidate",
+          "resume_ready"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "external_sw_3004",
+      "personType": "external_candidate",
+      "domain": "software",
+      "currentCompany": "Tandem Health Tech",
+      "profile": {
+        "firstName": "Noah",
+        "lastName": "Stone",
+        "displayName": "Noah Stone",
+        "headline": "Cloud Architect",
+        "level": "Principal",
+        "location": {
+          "city": "Raleigh",
+          "state": "NC",
+          "remoteStatus": "Open to relocate"
+        }
+      },
+      "summary": "Cloud Architect with experience building scalable products and collaborating across product, design, and infrastructure teams.",
+      "skills": {
+        "primary": [
+          "Python",
+          "PyTorch",
+          "RAG",
+          "Vector Databases",
+          "LangChain",
+          "FastAPI"
+        ],
+        "secondary": [
+          "ML Evaluation"
+        ],
+        "softSkills": [
+          "Mentoring",
+          "Clear Communication",
+          "Cross-functional Collaboration"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "Tandem Health Tech",
+          "title": "Cloud Architect",
+          "startDate": "2024-04",
+          "endDate": null,
+          "highlights": [
+            "Delivered production systems used by enterprise customers",
+            "Collaborated with product and design on roadmap tradeoffs"
+          ]
+        },
+        {
+          "company": "FastFoundry",
+          "title": "Systems Developer",
+          "startDate": "2017-06",
+          "endDate": "2024-03",
+          "highlights": [
+            "Built APIs, integrations, and internal tooling",
+            "Improved observability and release confidence"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Cloud Cost Optimization",
+          "role": "Cloud Architect",
+          "impact": "Improved system reliability",
+          "technologies": [
+            "Python",
+            "PyTorch",
+            "RAG",
+            "Vector Databases",
+            "LangChain"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Oregon State University",
+          "degree": "B.S. Information Systems",
+          "year": "2014"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "None Listed",
+          "status": "Not applicable"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/noah-stone",
+        "github": "https://github.example.com/noahstone",
+        "desiredRoles": [
+          "Engineering Manager track",
+          "Principal IC"
+        ],
+        "availability": "2 weeks notice"
+      },
+      "internalProfileData": {},
+      "metadata": {
+        "tags": [
+          "software",
+          "external_candidate",
+          "resume_ready"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "external_sw_3005",
+      "personType": "external_candidate",
+      "domain": "software",
+      "currentCompany": "Redwood Analytics",
+      "profile": {
+        "firstName": "Lena",
+        "lastName": "Price",
+        "displayName": "Lena Price",
+        "headline": "Database Engineer",
+        "level": "Mid",
+        "location": {
+          "city": "Portland",
+          "state": "OR",
+          "remoteStatus": "Hybrid"
+        }
+      },
+      "summary": "Database Engineer with experience building scalable products and collaborating across product, design, and infrastructure teams.",
+      "skills": {
+        "primary": [
+          "Terraform",
+          "Kubernetes",
+          "GitHub Actions",
+          "AWS",
+          "Observability",
+          "Helm"
+        ],
+        "secondary": [
+          "Linux"
+        ],
+        "softSkills": [
+          "Client Communication",
+          "Documentation",
+          "Problem Solving"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "Redwood Analytics",
+          "title": "Database Engineer",
+          "startDate": "2021-04",
+          "endDate": null,
+          "highlights": [
+            "Delivered production systems used by enterprise customers",
+            "Collaborated with product and design on roadmap tradeoffs"
+          ]
+        },
+        {
+          "company": "Arcbyte",
+          "title": "Software Engineer",
+          "startDate": "2018-06",
+          "endDate": "2021-03",
+          "highlights": [
+            "Built APIs, integrations, and internal tooling",
+            "Improved observability and release confidence"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Real-Time Collaboration Platform",
+          "role": "Database Engineer",
+          "impact": "Reduced infrastructure cost",
+          "technologies": [
+            "Terraform",
+            "Kubernetes",
+            "GitHub Actions",
+            "AWS",
+            "Observability"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "University of Illinois",
+          "degree": "B.S. Computer Science",
+          "year": "2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "AWS Solutions Architect",
+          "status": "Active"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/lena-price",
+        "github": "https://github.example.com/lenaprice",
+        "desiredRoles": [
+          "Senior Engineer",
+          "Staff Engineer",
+          "Technical Lead"
+        ],
+        "availability": "Immediately"
+      },
+      "internalProfileData": {},
+      "metadata": {
+        "tags": [
+          "software",
+          "external_candidate",
+          "resume_ready"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "external_sw_3006",
+      "personType": "external_candidate",
+      "domain": "software",
+      "currentCompany": "Northline Digital",
+      "profile": {
+        "firstName": "Owen",
+        "lastName": "Ellis",
+        "displayName": "Owen Ellis",
+        "headline": "Platform Engineer",
+        "level": "Senior",
+        "location": {
+          "city": "Boston",
+          "state": "MA",
+          "remoteStatus": "Remote"
+        }
+      },
+      "summary": "Platform Engineer with experience building scalable products and collaborating across product, design, and infrastructure teams.",
+      "skills": {
+        "primary": [
+          "Engineering Management",
+          "Hiring",
+          "Roadmapping",
+          "Agile Delivery",
+          "Mentoring",
+          "Architecture Review"
+        ],
+        "secondary": [],
+        "softSkills": [
+          "Leadership",
+          "Prioritization",
+          "Stakeholder Management"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "Northline Digital",
+          "title": "Platform Engineer",
+          "startDate": "2022-04",
+          "endDate": null,
+          "highlights": [
+            "Delivered production systems used by enterprise customers",
+            "Collaborated with product and design on roadmap tradeoffs"
+          ]
+        },
+        {
+          "company": "CloudNest",
+          "title": "Senior Developer",
+          "startDate": "2014-06",
+          "endDate": "2022-03",
+          "highlights": [
+            "Built APIs, integrations, and internal tooling",
+            "Improved observability and release confidence"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "ML Search Prototype",
+          "role": "Platform Engineer",
+          "impact": "Accelerated customer onboarding",
+          "technologies": [
+            "Engineering Management",
+            "Hiring",
+            "Roadmapping",
+            "Agile Delivery",
+            "Mentoring"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Northeastern University",
+          "degree": "M.S. Software Engineering",
+          "year": "2016"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Google Professional Cloud Developer",
+          "status": "Active"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/owen-ellis",
+        "github": "https://github.example.com/owenellis",
+        "desiredRoles": [
+          "Engineering Manager track",
+          "Principal IC"
+        ],
+        "availability": "1 month notice"
+      },
+      "internalProfileData": {},
+      "metadata": {
+        "tags": [
+          "software",
+          "external_candidate",
+          "resume_ready"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "external_sw_3007",
+      "personType": "external_candidate",
+      "domain": "software",
+      "currentCompany": "SignalPath",
+      "profile": {
+        "firstName": "Nina",
+        "lastName": "Wright",
+        "displayName": "Nina Wright",
+        "headline": "Site Reliability Engineer",
+        "level": "Lead",
+        "location": {
+          "city": "San Diego",
+          "state": "CA",
+          "remoteStatus": "Hybrid"
+        }
+      },
+      "summary": "Site Reliability Engineer with experience building scalable products and collaborating across product, design, and infrastructure teams.",
+      "skills": {
+        "primary": [
+          "Cypress",
+          "Selenium",
+          "Playwright",
+          "Test Strategy",
+          "CI/CD",
+          "API Testing"
+        ],
+        "secondary": [],
+        "softSkills": [
+          "Calm Under Pressure",
+          "Ownership",
+          "Coaching"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "SignalPath",
+          "title": "Site Reliability Engineer",
+          "startDate": "2023-04",
+          "endDate": null,
+          "highlights": [
+            "Delivered production systems used by enterprise customers",
+            "Collaborated with product and design on roadmap tradeoffs"
+          ]
+        },
+        {
+          "company": "Logic Harbor",
+          "title": "Technical Lead",
+          "startDate": "2015-06",
+          "endDate": "2023-03",
+          "highlights": [
+            "Built APIs, integrations, and internal tooling",
+            "Improved observability and release confidence"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Billing System Rewrite",
+          "role": "Site Reliability Engineer",
+          "impact": "Improved system reliability",
+          "technologies": [
+            "Cypress",
+            "Selenium",
+            "Playwright",
+            "Test Strategy",
+            "CI/CD"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Texas A&M",
+          "degree": "B.S. Electrical Engineering",
+          "year": "2017"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "CKA",
+          "status": "Active"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/nina-wright",
+        "github": "https://github.example.com/ninawright",
+        "desiredRoles": [
+          "Senior Engineer",
+          "Staff Engineer",
+          "Technical Lead"
+        ],
+        "availability": "2 weeks notice"
+      },
+      "internalProfileData": {},
+      "metadata": {
+        "tags": [
+          "software",
+          "external_candidate",
+          "resume_ready"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "external_sw_3008",
+      "personType": "external_candidate",
+      "domain": "software",
+      "currentCompany": "HelioGrid",
+      "profile": {
+        "firstName": "Leo",
+        "lastName": "Garcia",
+        "displayName": "Leo Garcia",
+        "headline": "Full Stack Engineer",
+        "level": "Principal",
+        "location": {
+          "city": "Minneapolis",
+          "state": "MN",
+          "remoteStatus": "Remote"
+        }
+      },
+      "summary": "Full Stack Engineer with experience building scalable products and collaborating across product, design, and infrastructure teams.",
+      "skills": {
+        "primary": [
+          "Kotlin",
+          "Swift",
+          "React Native",
+          "Mobile CI/CD",
+          "Firebase",
+          "App Store Release"
+        ],
+        "secondary": [],
+        "softSkills": [
+          "Analytical Thinking",
+          "Curiosity",
+          "Adaptability"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "HelioGrid",
+          "title": "Full Stack Engineer",
+          "startDate": "2024-04",
+          "endDate": null,
+          "highlights": [
+            "Delivered production systems used by enterprise customers",
+            "Collaborated with product and design on roadmap tradeoffs"
+          ]
+        },
+        {
+          "company": "FastFoundry",
+          "title": "Systems Developer",
+          "startDate": "2016-06",
+          "endDate": "2024-03",
+          "highlights": [
+            "Built APIs, integrations, and internal tooling",
+            "Improved observability and release confidence"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Cloud Cost Optimization",
+          "role": "Full Stack Engineer",
+          "impact": "Reduced infrastructure cost",
+          "technologies": [
+            "Kotlin",
+            "Swift",
+            "React Native",
+            "Mobile CI/CD",
+            "Firebase"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Oregon State University",
+          "degree": "B.S. Information Systems",
+          "year": "2018"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "None Listed",
+          "status": "Not applicable"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/leo-garcia",
+        "github": "https://github.example.com/leogarcia",
+        "desiredRoles": [
+          "Engineering Manager track",
+          "Principal IC"
+        ],
+        "availability": "Immediately"
+      },
+      "internalProfileData": {},
+      "metadata": {
+        "tags": [
+          "software",
+          "external_candidate",
+          "resume_ready"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "external_sw_3009",
+      "personType": "external_candidate",
+      "domain": "software",
+      "currentCompany": "VectorStone",
+      "profile": {
+        "firstName": "Iris",
+        "lastName": "Coleman",
+        "displayName": "Iris Coleman",
+        "headline": "Technical Product Manager",
+        "level": "Mid",
+        "location": {
+          "city": "Raleigh",
+          "state": "NC",
+          "remoteStatus": "Open to relocate"
+        }
+      },
+      "summary": "Technical Product Manager with experience building scalable products and collaborating across product, design, and infrastructure teams.",
+      "skills": {
+        "primary": [
+          "IAM",
+          "OAuth",
+          "SAST",
+          "Threat Modeling",
+          "SIEM",
+          "Cloud Security"
+        ],
+        "secondary": [
+          "Incident Response"
+        ],
+        "softSkills": [
+          "Mentoring",
+          "Clear Communication",
+          "Cross-functional Collaboration"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "VectorStone",
+          "title": "Technical Product Manager",
+          "startDate": "2021-04",
+          "endDate": null,
+          "highlights": [
+            "Delivered production systems used by enterprise customers",
+            "Collaborated with product and design on roadmap tradeoffs"
+          ]
+        },
+        {
+          "company": "Arcbyte",
+          "title": "Software Engineer",
+          "startDate": "2017-06",
+          "endDate": "2021-03",
+          "highlights": [
+            "Built APIs, integrations, and internal tooling",
+            "Improved observability and release confidence"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Real-Time Collaboration Platform",
+          "role": "Technical Product Manager",
+          "impact": "Accelerated customer onboarding",
+          "technologies": [
+            "IAM",
+            "OAuth",
+            "SAST",
+            "Threat Modeling",
+            "SIEM"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "University of Illinois",
+          "degree": "B.S. Computer Science",
+          "year": "2019"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "AWS Solutions Architect",
+          "status": "Active"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/iris-coleman",
+        "github": "https://github.example.com/iriscoleman",
+        "desiredRoles": [
+          "Senior Engineer",
+          "Staff Engineer",
+          "Technical Lead"
+        ],
+        "availability": "1 month notice"
+      },
+      "internalProfileData": {},
+      "metadata": {
+        "tags": [
+          "software",
+          "external_candidate",
+          "resume_ready"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "external_sw_3010",
+      "personType": "external_candidate",
+      "domain": "software",
+      "currentCompany": "CedarBridge",
+      "profile": {
+        "firstName": "Miles",
+        "lastName": "Murphy",
+        "displayName": "Miles Murphy",
+        "headline": "Principal Engineer",
+        "level": "Senior",
+        "location": {
+          "city": "Portland",
+          "state": "OR",
+          "remoteStatus": "Hybrid"
+        }
+      },
+      "summary": "Principal Engineer with experience building scalable products and collaborating across product, design, and infrastructure teams.",
+      "skills": {
+        "primary": [
+          "Spark",
+          "Snowflake",
+          "dbt",
+          "Airflow",
+          "Python",
+          "SQL"
+        ],
+        "secondary": [
+          "Data Modeling"
+        ],
+        "softSkills": [
+          "Client Communication",
+          "Documentation",
+          "Problem Solving"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "CedarBridge",
+          "title": "Principal Engineer",
+          "startDate": "2022-04",
+          "endDate": null,
+          "highlights": [
+            "Delivered production systems used by enterprise customers",
+            "Collaborated with product and design on roadmap tradeoffs"
+          ]
+        },
+        {
+          "company": "CloudNest",
+          "title": "Senior Developer",
+          "startDate": "2018-06",
+          "endDate": "2022-03",
+          "highlights": [
+            "Built APIs, integrations, and internal tooling",
+            "Improved observability and release confidence"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "ML Search Prototype",
+          "role": "Principal Engineer",
+          "impact": "Improved system reliability",
+          "technologies": [
+            "Spark",
+            "Snowflake",
+            "dbt",
+            "Airflow",
+            "Python"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Northeastern University",
+          "degree": "M.S. Software Engineering",
+          "year": "2011"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Google Professional Cloud Developer",
+          "status": "Active"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/miles-murphy",
+        "github": "https://github.example.com/milesmurphy",
+        "desiredRoles": [
+          "Engineering Manager track",
+          "Principal IC"
+        ],
+        "availability": "2 weeks notice"
+      },
+      "internalProfileData": {},
+      "metadata": {
+        "tags": [
+          "software",
+          "external_candidate",
+          "resume_ready"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "external_it_4001",
+      "personType": "external_candidate",
+      "domain": "managed_it_services",
+      "currentCompany": "CedarBridge",
+      "profile": {
+        "firstName": "Tessa",
+        "lastName": "Hughes",
+        "displayName": "Tessa Hughes",
+        "headline": "Linux Administrator",
+        "level": "Level II",
+        "location": {
+          "city": "Kansas City",
+          "state": "MO",
+          "remoteStatus": "Field"
+        }
+      },
+      "summary": "Linux Administrator with hands-on experience supporting client environments, infrastructure migrations, endpoint management, and service desk escalation workflows.",
+      "skills": {
+        "primary": [
+          "Windows 11",
+          "Active Directory",
+          "Ticket Triage",
+          "Remote Support",
+          "Hardware Repair",
+          "Office 365"
+        ],
+        "secondary": [],
+        "softSkills": [
+          "Calm Under Pressure",
+          "Ownership",
+          "Coaching"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "CedarBridge",
+          "title": "Linux Administrator",
+          "startDate": "2020-05",
+          "endDate": null,
+          "highlights": [
+            "Supported client infrastructure across multiple environments",
+            "Created repeatable troubleshooting and handoff documentation"
+          ]
+        },
+        {
+          "company": "Citywide IT",
+          "title": "IT Support Analyst",
+          "startDate": "2013-08",
+          "endDate": "2020-04",
+          "highlights": [
+            "Resolved escalated user and infrastructure issues",
+            "Participated in migrations, cutovers, and disaster recovery tests"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "M365 Tenant Migration",
+          "role": "Linux Administrator",
+          "impact": "Reduced downtime",
+          "technologies": [
+            "Windows 11",
+            "Active Directory",
+            "Ticket Triage",
+            "Remote Support",
+            "Hardware Repair"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "WGU",
+          "degree": "B.S. Information Technology",
+          "year": "2009"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "CompTIA Security+",
+          "status": "Active"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/tessa-hughes",
+        "desiredRoles": [
+          "Senior Support Engineer",
+          "Systems Administrator",
+          "Client Consultant"
+        ],
+        "availability": "Immediately"
+      },
+      "internalProfileData": {},
+      "metadata": {
+        "tags": [
+          "managed_it_services",
+          "external_candidate",
+          "resume_ready"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "external_it_4002",
+      "personType": "external_candidate",
+      "domain": "managed_it_services",
+      "currentCompany": "VectorStone",
+      "profile": {
+        "firstName": "Caleb",
+        "lastName": "Watson",
+        "displayName": "Caleb Watson",
+        "headline": "Azure Consultant",
+        "level": "Senior",
+        "location": {
+          "city": "Orlando",
+          "state": "FL",
+          "remoteStatus": "Hybrid"
+        }
+      },
+      "summary": "Azure Consultant with hands-on experience supporting client environments, infrastructure migrations, endpoint management, and service desk escalation workflows.",
+      "skills": {
+        "primary": [
+          "VMware",
+          "Hyper-V",
+          "Windows Server",
+          "PowerShell",
+          "Backup Systems",
+          "Storage"
+        ],
+        "secondary": [],
+        "softSkills": [
+          "Analytical Thinking",
+          "Curiosity",
+          "Adaptability"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "VectorStone",
+          "title": "Azure Consultant",
+          "startDate": "2021-05",
+          "endDate": null,
+          "highlights": [
+            "Supported client infrastructure across multiple environments",
+            "Created repeatable troubleshooting and handoff documentation"
+          ]
+        },
+        {
+          "company": "Summit Managed Services",
+          "title": "Network Support Specialist",
+          "startDate": "2014-08",
+          "endDate": "2021-04",
+          "highlights": [
+            "Resolved escalated user and infrastructure issues",
+            "Participated in migrations, cutovers, and disaster recovery tests"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Backup Strategy Refresh",
+          "role": "Azure Consultant",
+          "impact": "Improved ticket response time",
+          "technologies": [
+            "VMware",
+            "Hyper-V",
+            "Windows Server",
+            "PowerShell",
+            "Backup Systems"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "DeVry University",
+          "degree": "A.A.S. Network Systems",
+          "year": "2010"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Microsoft Azure Administrator",
+          "status": "Active"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/caleb-watson",
+        "desiredRoles": [
+          "Service Delivery",
+          "Cloud Administrator"
+        ],
+        "availability": "2 weeks notice"
+      },
+      "internalProfileData": {},
+      "metadata": {
+        "tags": [
+          "managed_it_services",
+          "external_candidate",
+          "resume_ready"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "external_it_4003",
+      "personType": "external_candidate",
+      "domain": "managed_it_services",
+      "currentCompany": "HelioGrid",
+      "profile": {
+        "firstName": "Aria",
+        "lastName": "Rivera",
+        "displayName": "Aria Rivera",
+        "headline": "AWS Consultant",
+        "level": "Lead",
+        "location": {
+          "city": "Salt Lake City",
+          "state": "UT",
+          "remoteStatus": "Remote"
+        }
+      },
+      "summary": "AWS Consultant with hands-on experience supporting client environments, infrastructure migrations, endpoint management, and service desk escalation workflows.",
+      "skills": {
+        "primary": [
+          "Cisco",
+          "Fortinet",
+          "VLANs",
+          "BGP",
+          "Firewall Rules",
+          "Wi-Fi Troubleshooting"
+        ],
+        "secondary": [],
+        "softSkills": [
+          "Mentoring",
+          "Clear Communication",
+          "Cross-functional Collaboration"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "HelioGrid",
+          "title": "AWS Consultant",
+          "startDate": "2022-05",
+          "endDate": null,
+          "highlights": [
+            "Supported client infrastructure across multiple environments",
+            "Created repeatable troubleshooting and handoff documentation"
+          ]
+        },
+        {
+          "company": "HarborTech",
+          "title": "Systems Technician",
+          "startDate": "2015-08",
+          "endDate": "2022-04",
+          "highlights": [
+            "Resolved escalated user and infrastructure issues",
+            "Participated in migrations, cutovers, and disaster recovery tests"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "VoIP Cutover",
+          "role": "AWS Consultant",
+          "impact": "Strengthened security baseline",
+          "technologies": [
+            "Cisco",
+            "Fortinet",
+            "VLANs",
+            "BGP",
+            "Firewall Rules"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Local Technical Institute",
+          "degree": "Certificate in Cloud Administration",
+          "year": "2011"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "AWS SysOps Administrator",
+          "status": "In Progress"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/aria-rivera",
+        "desiredRoles": [
+          "Senior Support Engineer",
+          "Systems Administrator",
+          "Client Consultant"
+        ],
+        "availability": "30 days"
+      },
+      "internalProfileData": {},
+      "metadata": {
+        "tags": [
+          "managed_it_services",
+          "external_candidate",
+          "resume_ready"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "external_it_4004",
+      "personType": "external_candidate",
+      "domain": "managed_it_services",
+      "currentCompany": "SignalPath",
+      "profile": {
+        "firstName": "Jonah",
+        "lastName": "Cooper",
+        "displayName": "Jonah Cooper",
+        "headline": "VoIP Engineer",
+        "level": "Consultant",
+        "location": {
+          "city": "Richmond",
+          "state": "VA",
+          "remoteStatus": "Hybrid"
+        }
+      },
+      "summary": "VoIP Engineer with hands-on experience supporting client environments, infrastructure migrations, endpoint management, and service desk escalation workflows.",
+      "skills": {
+        "primary": [
+          "Azure",
+          "Entra ID",
+          "Conditional Access",
+          "Intune",
+          "Azure Virtual Desktop",
+          "PowerShell"
+        ],
+        "secondary": [],
+        "softSkills": [
+          "Client Communication",
+          "Documentation",
+          "Problem Solving"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "SignalPath",
+          "title": "VoIP Engineer",
+          "startDate": "2023-05",
+          "endDate": null,
+          "highlights": [
+            "Supported client infrastructure across multiple environments",
+            "Created repeatable troubleshooting and handoff documentation"
+          ]
+        },
+        {
+          "company": "Pioneer Support Group",
+          "title": "Client Support Lead",
+          "startDate": "2016-08",
+          "endDate": "2023-04",
+          "highlights": [
+            "Resolved escalated user and infrastructure issues",
+            "Participated in migrations, cutovers, and disaster recovery tests"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Endpoint Standardization",
+          "role": "VoIP Engineer",
+          "impact": "Reduced downtime",
+          "technologies": [
+            "Azure",
+            "Entra ID",
+            "Conditional Access",
+            "Intune",
+            "Azure Virtual Desktop"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "University of Cincinnati",
+          "degree": "B.S. Cybersecurity",
+          "year": "2012"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "VMware VCP",
+          "status": "Expired"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/jonah-cooper",
+        "desiredRoles": [
+          "Service Delivery",
+          "Cloud Administrator"
+        ],
+        "availability": "Immediately"
+      },
+      "internalProfileData": {},
+      "metadata": {
+        "tags": [
+          "managed_it_services",
+          "external_candidate",
+          "resume_ready"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "external_it_4005",
+      "personType": "external_candidate",
+      "domain": "managed_it_services",
+      "currentCompany": "Northline Digital",
+      "profile": {
+        "firstName": "Mina",
+        "lastName": "Bell",
+        "displayName": "Mina Bell",
+        "headline": "Desktop Support Specialist",
+        "level": "Level II",
+        "location": {
+          "city": "Cleveland",
+          "state": "OH",
+          "remoteStatus": "Open to travel"
+        }
+      },
+      "summary": "Desktop Support Specialist with hands-on experience supporting client environments, infrastructure migrations, endpoint management, and service desk escalation workflows.",
+      "skills": {
+        "primary": [
+          "Microsoft 365",
+          "Exchange Online",
+          "Teams",
+          "SharePoint",
+          "OneDrive",
+          "Email Security"
+        ],
+        "secondary": [],
+        "softSkills": [
+          "Leadership",
+          "Prioritization",
+          "Stakeholder Management"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "Northline Digital",
+          "title": "Desktop Support Specialist",
+          "startDate": "2024-05",
+          "endDate": null,
+          "highlights": [
+            "Supported client infrastructure across multiple environments",
+            "Created repeatable troubleshooting and handoff documentation"
+          ]
+        },
+        {
+          "company": "Citywide IT",
+          "title": "IT Support Analyst",
+          "startDate": "2017-08",
+          "endDate": "2024-04",
+          "highlights": [
+            "Resolved escalated user and infrastructure issues",
+            "Participated in migrations, cutovers, and disaster recovery tests"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "M365 Tenant Migration",
+          "role": "Desktop Support Specialist",
+          "impact": "Improved ticket response time",
+          "technologies": [
+            "Microsoft 365",
+            "Exchange Online",
+            "Teams",
+            "SharePoint",
+            "OneDrive"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "WGU",
+          "degree": "B.S. Information Technology",
+          "year": "2013"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "CompTIA Security+",
+          "status": "Active"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/mina-bell",
+        "desiredRoles": [
+          "Senior Support Engineer",
+          "Systems Administrator",
+          "Client Consultant"
+        ],
+        "availability": "2 weeks notice"
+      },
+      "internalProfileData": {},
+      "metadata": {
+        "tags": [
+          "managed_it_services",
+          "external_candidate",
+          "resume_ready"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "external_it_4006",
+      "personType": "external_candidate",
+      "domain": "managed_it_services",
+      "currentCompany": "Redwood Analytics",
+      "profile": {
+        "firstName": "Eli",
+        "lastName": "Ross",
+        "displayName": "Eli Ross",
+        "headline": "Service Delivery Manager",
+        "level": "Senior",
+        "location": {
+          "city": "Kansas City",
+          "state": "MO",
+          "remoteStatus": "Field"
+        }
+      },
+      "summary": "Service Delivery Manager with hands-on experience supporting client environments, infrastructure migrations, endpoint management, and service desk escalation workflows.",
+      "skills": {
+        "primary": [
+          "Microsoft Defender",
+          "Sentinel",
+          "Phishing Analysis",
+          "Vulnerability Management",
+          "Incident Response"
+        ],
+        "secondary": [],
+        "softSkills": [
+          "Calm Under Pressure",
+          "Ownership",
+          "Coaching"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "Redwood Analytics",
+          "title": "Service Delivery Manager",
+          "startDate": "2020-05",
+          "endDate": null,
+          "highlights": [
+            "Supported client infrastructure across multiple environments",
+            "Created repeatable troubleshooting and handoff documentation"
+          ]
+        },
+        {
+          "company": "Summit Managed Services",
+          "title": "Network Support Specialist",
+          "startDate": "2018-08",
+          "endDate": "2020-04",
+          "highlights": [
+            "Resolved escalated user and infrastructure issues",
+            "Participated in migrations, cutovers, and disaster recovery tests"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Backup Strategy Refresh",
+          "role": "Service Delivery Manager",
+          "impact": "Strengthened security baseline",
+          "technologies": [
+            "Microsoft Defender",
+            "Sentinel",
+            "Phishing Analysis",
+            "Vulnerability Management",
+            "Incident Response"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "DeVry University",
+          "degree": "A.A.S. Network Systems",
+          "year": "2014"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Microsoft Azure Administrator",
+          "status": "Active"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/eli-ross",
+        "desiredRoles": [
+          "Service Delivery",
+          "Cloud Administrator"
+        ],
+        "availability": "30 days"
+      },
+      "internalProfileData": {},
+      "metadata": {
+        "tags": [
+          "managed_it_services",
+          "external_candidate",
+          "resume_ready"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "external_it_4007",
+      "personType": "external_candidate",
+      "domain": "managed_it_services",
+      "currentCompany": "Tandem Health Tech",
+      "profile": {
+        "firstName": "Sofia",
+        "lastName": "Bailey",
+        "displayName": "Sofia Bailey",
+        "headline": "NOC Engineer",
+        "level": "Lead",
+        "location": {
+          "city": "Orlando",
+          "state": "FL",
+          "remoteStatus": "Hybrid"
+        }
+      },
+      "summary": "NOC Engineer with hands-on experience supporting client environments, infrastructure migrations, endpoint management, and service desk escalation workflows.",
+      "skills": {
+        "primary": [
+          "SOC Monitoring",
+          "SIEM",
+          "Alert Triage",
+          "Endpoint Logs",
+          "Escalation Procedures"
+        ],
+        "secondary": [],
+        "softSkills": [
+          "Analytical Thinking",
+          "Curiosity",
+          "Adaptability"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "Tandem Health Tech",
+          "title": "NOC Engineer",
+          "startDate": "2021-05",
+          "endDate": null,
+          "highlights": [
+            "Supported client infrastructure across multiple environments",
+            "Created repeatable troubleshooting and handoff documentation"
+          ]
+        },
+        {
+          "company": "HarborTech",
+          "title": "Systems Technician",
+          "startDate": "2013-08",
+          "endDate": "2021-04",
+          "highlights": [
+            "Resolved escalated user and infrastructure issues",
+            "Participated in migrations, cutovers, and disaster recovery tests"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "VoIP Cutover",
+          "role": "NOC Engineer",
+          "impact": "Reduced downtime",
+          "technologies": [
+            "SOC Monitoring",
+            "SIEM",
+            "Alert Triage",
+            "Endpoint Logs",
+            "Escalation Procedures"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Local Technical Institute",
+          "degree": "Certificate in Cloud Administration",
+          "year": "2015"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "AWS SysOps Administrator",
+          "status": "In Progress"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/sofia-bailey",
+        "desiredRoles": [
+          "Senior Support Engineer",
+          "Systems Administrator",
+          "Client Consultant"
+        ],
+        "availability": "Immediately"
+      },
+      "internalProfileData": {},
+      "metadata": {
+        "tags": [
+          "managed_it_services",
+          "external_candidate",
+          "resume_ready"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "external_it_4008",
+      "personType": "external_candidate",
+      "domain": "managed_it_services",
+      "currentCompany": "LayerLake",
+      "profile": {
+        "firstName": "Theo",
+        "lastName": "Perry",
+        "displayName": "Theo Perry",
+        "headline": "Backup Engineer",
+        "level": "Consultant",
+        "location": {
+          "city": "Salt Lake City",
+          "state": "UT",
+          "remoteStatus": "Remote"
+        }
+      },
+      "summary": "Backup Engineer with hands-on experience supporting client environments, infrastructure migrations, endpoint management, and service desk escalation workflows.",
+      "skills": {
+        "primary": [
+          "IT Project Management",
+          "Client Onboarding",
+          "Change Management",
+          "Budget Tracking",
+          "Vendor Coordination"
+        ],
+        "secondary": [],
+        "softSkills": [
+          "Mentoring",
+          "Clear Communication",
+          "Cross-functional Collaboration"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "LayerLake",
+          "title": "Backup Engineer",
+          "startDate": "2022-05",
+          "endDate": null,
+          "highlights": [
+            "Supported client infrastructure across multiple environments",
+            "Created repeatable troubleshooting and handoff documentation"
+          ]
+        },
+        {
+          "company": "Pioneer Support Group",
+          "title": "Client Support Lead",
+          "startDate": "2014-08",
+          "endDate": "2022-04",
+          "highlights": [
+            "Resolved escalated user and infrastructure issues",
+            "Participated in migrations, cutovers, and disaster recovery tests"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Endpoint Standardization",
+          "role": "Backup Engineer",
+          "impact": "Improved ticket response time",
+          "technologies": [
+            "IT Project Management",
+            "Client Onboarding",
+            "Change Management",
+            "Budget Tracking",
+            "Vendor Coordination"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "University of Cincinnati",
+          "degree": "B.S. Cybersecurity",
+          "year": "2016"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "VMware VCP",
+          "status": "Expired"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/theo-perry",
+        "desiredRoles": [
+          "Service Delivery",
+          "Cloud Administrator"
+        ],
+        "availability": "2 weeks notice"
+      },
+      "internalProfileData": {},
+      "metadata": {
+        "tags": [
+          "managed_it_services",
+          "external_candidate",
+          "resume_ready"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "external_it_4009",
+      "personType": "external_candidate",
+      "domain": "managed_it_services",
+      "currentCompany": "OrbitWorks",
+      "profile": {
+        "firstName": "Nadia",
+        "lastName": "Gray",
+        "displayName": "Nadia Gray",
+        "headline": "Security Consultant",
+        "level": "Level II",
+        "location": {
+          "city": "Richmond",
+          "state": "VA",
+          "remoteStatus": "Hybrid"
+        }
+      },
+      "summary": "Security Consultant with hands-on experience supporting client environments, infrastructure migrations, endpoint management, and service desk escalation workflows.",
+      "skills": {
+        "primary": [
+          "Intune",
+          "Autopilot",
+          "Endpoint Compliance",
+          "Patch Management",
+          "MDM",
+          "Application Packaging"
+        ],
+        "secondary": [],
+        "softSkills": [
+          "Client Communication",
+          "Documentation",
+          "Problem Solving"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "OrbitWorks",
+          "title": "Security Consultant",
+          "startDate": "2023-05",
+          "endDate": null,
+          "highlights": [
+            "Supported client infrastructure across multiple environments",
+            "Created repeatable troubleshooting and handoff documentation"
+          ]
+        },
+        {
+          "company": "Citywide IT",
+          "title": "IT Support Analyst",
+          "startDate": "2015-08",
+          "endDate": "2023-04",
+          "highlights": [
+            "Resolved escalated user and infrastructure issues",
+            "Participated in migrations, cutovers, and disaster recovery tests"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "M365 Tenant Migration",
+          "role": "Security Consultant",
+          "impact": "Strengthened security baseline",
+          "technologies": [
+            "Intune",
+            "Autopilot",
+            "Endpoint Compliance",
+            "Patch Management",
+            "MDM"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "WGU",
+          "degree": "B.S. Information Technology",
+          "year": "2017"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "CompTIA Security+",
+          "status": "Active"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/nadia-gray",
+        "desiredRoles": [
+          "Senior Support Engineer",
+          "Systems Administrator",
+          "Client Consultant"
+        ],
+        "availability": "30 days"
+      },
+      "internalProfileData": {},
+      "metadata": {
+        "tags": [
+          "managed_it_services",
+          "external_candidate",
+          "resume_ready"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    },
+    {
+      "personId": "external_it_4010",
+      "personType": "external_candidate",
+      "domain": "managed_it_services",
+      "currentCompany": "BluePeak Systems",
+      "profile": {
+        "firstName": "Cole",
+        "lastName": "Howard",
+        "displayName": "Cole Howard",
+        "headline": "Virtualization Engineer",
+        "level": "Senior",
+        "location": {
+          "city": "Cleveland",
+          "state": "OH",
+          "remoteStatus": "Open to travel"
+        }
+      },
+      "summary": "Virtualization Engineer with hands-on experience supporting client environments, infrastructure migrations, endpoint management, and service desk escalation workflows.",
+      "skills": {
+        "primary": [
+          "Field Support",
+          "Printer Repair",
+          "Cabling",
+          "Point of Sale",
+          "Network Closets",
+          "Client Training"
+        ],
+        "secondary": [],
+        "softSkills": [
+          "Leadership",
+          "Prioritization",
+          "Stakeholder Management"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "BluePeak Systems",
+          "title": "Virtualization Engineer",
+          "startDate": "2024-05",
+          "endDate": null,
+          "highlights": [
+            "Supported client infrastructure across multiple environments",
+            "Created repeatable troubleshooting and handoff documentation"
+          ]
+        },
+        {
+          "company": "Summit Managed Services",
+          "title": "Network Support Specialist",
+          "startDate": "2016-08",
+          "endDate": "2024-04",
+          "highlights": [
+            "Resolved escalated user and infrastructure issues",
+            "Participated in migrations, cutovers, and disaster recovery tests"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Backup Strategy Refresh",
+          "role": "Virtualization Engineer",
+          "impact": "Reduced downtime",
+          "technologies": [
+            "Field Support",
+            "Printer Repair",
+            "Cabling",
+            "Point of Sale",
+            "Network Closets"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "DeVry University",
+          "degree": "A.A.S. Network Systems",
+          "year": "2018"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Microsoft Azure Administrator",
+          "status": "Active"
+        }
+      ],
+      "resumeData": {
+        "linkedin": "https://linkedin.example.com/in/cole-howard",
+        "desiredRoles": [
+          "Service Delivery",
+          "Cloud Administrator"
+        ],
+        "availability": "Immediately"
+      },
+      "internalProfileData": {},
+      "metadata": {
+        "tags": [
+          "managed_it_services",
+          "external_candidate",
+          "resume_ready"
+        ],
+        "lastUpdated": "2026-07-08",
+        "dataQualityNotes": []
+      }
+    }
+  ]
+}

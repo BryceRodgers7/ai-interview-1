@@ -1,0 +1,23 @@
+{
+  "id": "procom",
+  "name": "ProCom",
+  "tagline": "Engineering the future, one hire at a time.",
+  "logo_text": "⌘ ProCom",
+  "footer_text": "ProCom Talent · Confidential. AI-assisted draft — verify sources before any hiring decision.",
+  "tokens": {
+    "primary_color": "#4f46e5",
+    "accent_color": "#06b6d4",
+    "page_bg": "#eef2ff",
+    "surface_color": "#ffffff",
+    "text_color": "#0f172a",
+    "muted_color": "#64748b",
+    "border_color": "#e2e8f0",
+    "body_font": "'Segoe UI', Roboto, system-ui, -apple-system, sans-serif",
+    "heading_font": "'Segoe UI Semibold', 'Segoe UI', system-ui, sans-serif",
+    "label_transform": "uppercase",
+    "label_spacing": "0.10em",
+    "radius": "12px",
+    "accent_bar": true,
+    "max_width": "820px"
+  }
+}

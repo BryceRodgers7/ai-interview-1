@@ -1,0 +1,29 @@
+{# Reusable, brand-agnostic rendering helpers. Only semantic markup — no styling. #}
+
+{% macro dash(value) -%}
+{% if value %}{{ value }}{% else %}<span class="blank">—</span>{% endif %}
+{%- endmacro %}
+
+{% macro bullets(items) -%}
+{% if items %}<ul class="bullets">{% for i in items %}<li>{{ i }}</li>{% endfor %}</ul>{% endif %}
+{%- endmacro %}
+
+{% macro tags(items) -%}
+{% if items %}<div class="tags">{% for i in items %}<span class="tag">{{ i }}</span>{% endfor %}</div>{% else %}<span class="blank">—</span>{% endif %}
+{%- endmacro %}
+
+{% macro cert_list(items) -%}
+{% if items %}<ul class="cert-list">
+{% for c in items %}<li class="cert"><span class="cert-name">{{ c.name or '—' }}</span>{% if c.status %}<span class="cert-status cert-status--{{ c.status|lower|replace(' ', '-') }}">{{ c.status }}</span>{% endif %}</li>{% endfor %}
+</ul>{% else %}<span class="blank">—</span>{% endif %}
+{%- endmacro %}
+
+{% macro project_list(items) -%}
+{% if items %}
+{% for pr in items %}<div class="entry project">
+  <div class="entry-head"><span class="entry-title">{{ dash(pr.name) }}</span>{% if pr.role %}<span class="entry-meta">{{ pr.role }}</span>{% endif %}</div>
+  {% if pr.impact %}<div class="project-impact">{{ pr.impact }}</div>{% endif %}
+  {% if pr.technologies %}<div class="tech-list">{% for t in pr.technologies %}<span class="tech">{{ t }}</span>{% endfor %}</div>{% endif %}
+</div>{% endfor %}
+{% else %}<span class="blank">—</span>{% endif %}
+{%- endmacro %}

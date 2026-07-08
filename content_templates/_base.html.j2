@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ doc.name or 'Report' }} — {{ brand.name }} {{ doc_kind }}</title>
+<style>
+:root{
+  --primary: {{ brand.tokens.primary_color | safe }};
+  --accent: {{ brand.tokens.accent_color | safe }};
+  --page-bg: {{ brand.tokens.page_bg | safe }};
+  --surface: {{ brand.tokens.surface_color | safe }};
+  --text: {{ brand.tokens.text_color | safe }};
+  --muted: {{ brand.tokens.muted_color | safe }};
+  --border: {{ brand.tokens.border_color | safe }};
+  --body-font: {{ brand.tokens.body_font | safe }};
+  --heading-font: {{ brand.tokens.heading_font | safe }};
+  --label-transform: {{ brand.tokens.label_transform | safe }};
+  --label-spacing: {{ brand.tokens.label_spacing | safe }};
+  --radius: {{ brand.tokens.radius | safe }};
+  --max-width: {{ brand.tokens.max_width | safe }};
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{background:var(--page-bg);color:var(--text);font-family:var(--body-font);line-height:1.5;padding:32px 16px;-webkit-font-smoothing:antialiased;}
+.accent-bar{position:fixed;top:0;left:0;right:0;height:6px;background:linear-gradient(90deg,var(--primary),var(--accent));}
+.report{max-width:var(--max-width);margin:0 auto;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:40px 44px;box-shadow:0 6px 24px rgba(15,23,42,.06);}
+.report-header{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px 16px;padding-bottom:16px;margin-bottom:24px;border-bottom:2px solid var(--border);}
+.brandmark{font-family:var(--heading-font);font-weight:700;font-size:1.25rem;color:var(--primary);}
+.tagline{color:var(--muted);font-size:.9rem;font-style:italic;}
+.doc-kind{margin-left:auto;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);border:1px solid var(--border);border-radius:999px;padding:3px 10px;}
+.report-title{margin-bottom:8px;}
+.person-name{font-family:var(--heading-font);font-size:1.9rem;margin:0 0 4px;color:var(--text);}
+.person-headline{font-size:1.05rem;color:var(--primary);font-weight:600;}
+.contact-line{margin-top:8px;color:var(--muted);font-size:.85rem;display:flex;flex-wrap:wrap;gap:4px 14px;}
+.section{margin-top:26px;}
+.section-label{font-family:var(--heading-font);color:var(--primary);font-weight:700;font-size:.82rem;text-transform:var(--label-transform);letter-spacing:var(--label-spacing);border-bottom:1px solid var(--border);padding-bottom:6px;margin-bottom:12px;}
+.entry{margin-bottom:16px;}
+.entry-head{display:flex;justify-content:space-between;gap:12px;align-items:baseline;flex-wrap:wrap;}
+.entry-title{font-weight:700;}
+.entry-sub{color:var(--muted);font-size:.92rem;}
+.entry-meta{color:var(--muted);font-size:.82rem;white-space:nowrap;}
+.bullets{margin:6px 0 0;padding-left:20px;}
+.bullets li{margin:2px 0;}
+.tags{display:flex;flex-wrap:wrap;gap:6px;}
+.tag{background:color-mix(in srgb,var(--primary) 10%,var(--surface));border:1px solid color-mix(in srgb,var(--primary) 25%,var(--surface));color:var(--text);border-radius:calc(var(--radius) / 1.5);padding:3px 10px;font-size:.82rem;}
+.skill-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:6px 18px;}
+.skill-row{display:flex;justify-content:space-between;gap:10px;border-bottom:1px dotted var(--border);padding:3px 0;}
+.skill-name{font-weight:600;}
+.skill-level{color:var(--muted);font-size:.82rem;text-align:right;}
+.project-impact{margin-top:2px;}
+.tech-list{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px;}
+.tech{font-size:.76rem;color:var(--muted);border:1px dashed var(--border);border-radius:6px;padding:2px 8px;}
+.cert-list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:5px;}
+.cert{display:flex;gap:8px;align-items:center;}
+.cert-name{font-weight:600;}
+.cert-status{font-size:.72rem;padding:1px 9px;border-radius:999px;border:1px solid var(--border);color:var(--muted);white-space:nowrap;}
+.cert-status--active{color:#15803d;border-color:#86efac;}
+.cert-status--expired{color:#b91c1c;border-color:#fca5a5;}
+.cert-status--in-progress{color:#b45309;border-color:#fcd34d;}
+.cert-status--not-applicable{color:var(--muted);}
+.kv{display:flex;gap:12px;margin:8px 0;align-items:baseline;}
+.kv-key{min-width:130px;color:var(--muted);font-size:.85rem;text-transform:var(--label-transform);letter-spacing:var(--label-spacing);}
+.kv-val{flex:1;}
+.blank{color:var(--muted);}
+.muted{color:var(--muted);}
+.small{font-size:.8rem;}
+.provenance{margin-top:34px;}
+.prov-table{width:100%;border-collapse:collapse;font-size:.78rem;}
+.prov-table th{text-align:left;color:var(--muted);border-bottom:1px solid var(--border);padding:6px 8px;font-weight:600;}
+.prov-table td{border-bottom:1px solid var(--border);padding:6px 8px;vertical-align:top;}
+.prov-field{font-family:ui-monospace,'Cascadia Code',Consolas,monospace;color:var(--primary);white-space:nowrap;}
+.prov-evidence{color:var(--text);}
+.report-footer{margin-top:32px;padding-top:14px;border-top:1px solid var(--border);color:var(--muted);font-size:.76rem;text-align:center;}
+@media (max-width:600px){.report{padding:24px 20px;}.entry-head{flex-direction:column;gap:2px;}}
+</style>
+</head>
+<body>
+{% if brand.tokens.accent_bar %}<div class="accent-bar"></div>{% endif %}
+<main class="report">
+  <header class="report-header">
+    <div class="brandmark">{{ brand.logo_text }}</div>
+    <div class="tagline">{{ brand.tagline }}</div>
+    <div class="doc-kind">{{ doc_kind }}</div>
+  </header>
+
+  {% block content %}{% endblock %}
+
+  {% if sources %}
+  <section class="section provenance">
+    <div class="section-label">Sources &amp; Provenance</div>
+    <p class="muted small">Every field above was populated only from the quoted source text below (AI-assisted extraction — no fabricated content).</p>
+    <table class="prov-table">
+      <thead><tr><th>Field</th><th>Source evidence</th></tr></thead>
+      <tbody>
+      {% for s in sources %}
+        <tr><td class="prov-field">{{ s.field }}</td><td class="prov-evidence">{{ s.evidence }}</td></tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </section>
+  {% endif %}
+
+  <footer class="report-footer">{{ brand.footer_text }}</footer>
+</main>
+</body>
+</html>

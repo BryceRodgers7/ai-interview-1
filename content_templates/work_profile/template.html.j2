@@ -1,0 +1,74 @@
+{% extends "_base.html.j2" %}
+{% import "_macros.html.j2" as m %}
+{% block content %}
+<section class="report-title">
+  <h1 class="person-name">{{ m.dash(doc.name) }}</h1>
+  {% if doc.current_role %}
+  <div class="person-headline">
+    {{ [doc.current_role.title, doc.current_role.department] | select | join(' · ') }}
+    {% if doc.current_role.tenure %}<span class="entry-meta">({{ doc.current_role.tenure }})</span>{% endif %}
+  </div>
+  {% endif %}
+</section>
+
+{% if doc.summary %}
+<section class="section">
+  <div class="section-label">Profile Summary</div>
+  <p>{{ doc.summary }}</p>
+</section>
+{% endif %}
+
+<section class="section">
+  <div class="section-label">Skills &amp; Proficiencies</div>
+  {% if doc.skills %}
+    <div class="skill-grid">
+    {% for sk in doc.skills %}
+      <div class="skill-row">
+        <span class="skill-name">{{ m.dash(sk.name) }}</span>
+        <span class="skill-level">{{ [sk.group, sk.level] | select | join(' · ') }}</span>
+      </div>
+    {% endfor %}
+    </div>
+  {% else %}<p class="blank">—</p>{% endif %}
+</section>
+
+<section class="section">
+  <div class="section-label">Work History</div>
+  {% if doc.experience %}
+    {% for job in doc.experience %}
+    <div class="entry">
+      <div class="entry-head">
+        <span class="entry-title">{{ m.dash(job.role) }}</span>
+        <span class="entry-meta">{{ [job.start, job.end] | select | join(' – ') }}</span>
+      </div>
+      <div class="entry-sub">{{ m.dash(job.organization) }}</div>
+      {{ m.bullets(job.highlights) }}
+    </div>
+    {% endfor %}
+  {% else %}<p class="blank">—</p>{% endif %}
+</section>
+
+{% if doc.projects %}
+<section class="section">
+  <div class="section-label">Projects</div>
+  {{ m.project_list(doc.projects) }}
+</section>
+{% endif %}
+
+<section class="section">
+  <div class="section-label">Certifications</div>
+  {{ m.cert_list(doc.certifications) }}
+</section>
+
+{% if doc.internal %}
+<section class="section">
+  <div class="section-label">Internal Staffing</div>
+  <div class="kv"><span class="kv-key">Availability</span><span class="kv-val">{{ m.dash(doc.internal.availability) }}</span></div>
+  <div class="kv"><span class="kv-key">Promotion readiness</span><span class="kv-val">{{ m.dash(doc.internal.promotion_readiness) }}</span></div>
+  <div class="kv"><span class="kv-key">Performance rating</span><span class="kv-val">{{ m.dash(doc.internal.performance_rating) }}</span></div>
+  <div class="kv"><span class="kv-key">Manager</span><span class="kv-val">{{ m.dash(doc.internal.manager) }}</span></div>
+  <div class="kv"><span class="kv-key">Career interests</span><span class="kv-val">{{ m.tags(doc.internal.interests) }}</span></div>
+  {% if doc.internal.notes %}<div class="kv"><span class="kv-key">Notes</span><span class="kv-val">{{ doc.internal.notes }}</span></div>{% endif %}
+</section>
+{% endif %}
+{% endblock %}

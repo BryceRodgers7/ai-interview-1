@@ -1,0 +1,71 @@
+{% extends "_base.html.j2" %}
+{% import "_macros.html.j2" as m %}
+{% block content %}
+<section class="report-title">
+  <h1 class="person-name">{{ m.dash(doc.name) }}</h1>
+  {% if doc.headline %}<div class="person-headline">{{ doc.headline }}</div>{% endif %}
+  {% if doc.contact %}
+  <div class="contact-line">
+    {% if doc.contact.email %}<span>{{ doc.contact.email }}</span>{% endif %}
+    {% if doc.contact.phone %}<span>{{ doc.contact.phone }}</span>{% endif %}
+    {% if doc.contact.location %}<span>{{ doc.contact.location }}</span>{% endif %}
+    {% for link in doc.contact.links %}<span>{{ link }}</span>{% endfor %}
+  </div>
+  {% endif %}
+</section>
+
+{% if doc.summary %}
+<section class="section">
+  <div class="section-label">Summary</div>
+  <p>{{ doc.summary }}</p>
+</section>
+{% endif %}
+
+<section class="section">
+  <div class="section-label">Experience</div>
+  {% if doc.experience %}
+    {% for job in doc.experience %}
+    <div class="entry">
+      <div class="entry-head">
+        <span class="entry-title">{{ m.dash(job.title) }}</span>
+        <span class="entry-meta">{{ [job.start, job.end] | select | join(' – ') }}</span>
+      </div>
+      <div class="entry-sub">{{ m.dash(job.company) }}</div>
+      {{ m.bullets(job.highlights) }}
+    </div>
+    {% endfor %}
+  {% else %}<p class="blank">—</p>{% endif %}
+</section>
+
+{% if doc.projects %}
+<section class="section">
+  <div class="section-label">Projects</div>
+  {{ m.project_list(doc.projects) }}
+</section>
+{% endif %}
+
+<section class="section">
+  <div class="section-label">Skills</div>
+  {{ m.tags(doc.skills) }}
+</section>
+
+<section class="section">
+  <div class="section-label">Education</div>
+  {% if doc.education %}
+    {% for ed in doc.education %}
+    <div class="entry">
+      <div class="entry-head">
+        <span class="entry-title">{{ m.dash(ed.degree) }}</span>
+        {% if ed.year %}<span class="entry-meta">{{ ed.year }}</span>{% endif %}
+      </div>
+      <div class="entry-sub">{{ m.dash(ed.school) }}</div>
+    </div>
+    {% endfor %}
+  {% else %}<p class="blank">—</p>{% endif %}
+</section>
+
+<section class="section">
+  <div class="section-label">Certifications</div>
+  {{ m.cert_list(doc.certifications) }}
+</section>
+{% endblock %}

@@ -1,0 +1,1301 @@
+{
+  "datasetName": "people-work-template-demo-messy-seed",
+  "createdDate": "2026-07-08",
+  "description": "Additional intentionally messy person/work records for robustness testing. Includes missing fields, inconsistent names, mixed types, different scales, varied date formats, and inconsistent enum values.",
+  "notes": [
+    "Some records use profile.firstName/lastName, others use profile.name or first_name.",
+    "personType values are inconsistent: internal_employee, employee, internal, candidate, external_candidate.",
+    "domain values vary: software, Software, managed_it_services, MSP.",
+    "skills may be an object, list, string, or mixed nested structures.",
+    "performance/availability/readiness fields use mixed numeric, string, boolean, percentage, and object values.",
+    "Dates intentionally include invalid and inconsistent formats."
+  ],
+  "people": [
+    {
+      "personId": "procom_messy_emp_1101",
+      "personType": "internal_employee",
+      "domain": "software",
+      "currentCompany": "ProCom",
+      "profile": {
+        "first_name": "Nolan",
+        "lastName": "Vega",
+        "displayName": "Nolan Vega",
+        "headline": "Backend Eng III",
+        "level": 3,
+        "location": "Remote - Omaha, NE"
+      },
+      "summary": "Backend engineer; strong in Java/Spring/Kafka. Wants more architecture work.",
+      "skills": {
+        "primary": [
+          "Java",
+          "spring boot",
+          "Kafka",
+          "Postgres",
+          "AWS"
+        ],
+        "secondary": "Redis, Docker, GitHub Actions",
+        "softSkills": [
+          "mentoring",
+          "documentation"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "ProCom",
+          "title": "Backend Engineer III",
+          "start": "Feb 2022",
+          "endDate": "",
+          "highlights": "Moved batch billing jobs into event-driven services; reduced failures."
+        }
+      ],
+      "projects": {
+        "latest": {
+          "name": "Billing Events Rewrite",
+          "tech": [
+            "Kafka",
+            "Java",
+            "PostgreSQL"
+          ],
+          "impactScore": "high"
+        }
+      },
+      "education": null,
+      "certifications": [],
+      "internalProfileData": {
+        "employeeId": "PC-1101",
+        "manager": "Dana Walsh",
+        "performanceRating": "Exceeds",
+        "availabilityForNewWork": "25%",
+        "promotionReadiness": 4,
+        "careerInterests": "architecture; platform reliability"
+      }
+    },
+    {
+      "personId": "procom_messy_emp_1102",
+      "personType": "employee",
+      "domain": "Software",
+      "currentCompany": "procom",
+      "profile": {
+        "firstName": "Elena",
+        "lastName": "Frost",
+        "displayName": "Elena Frost",
+        "headline": "Frontend Developer",
+        "level": "L2",
+        "location": {
+          "city": "Chicago",
+          "state": "IL"
+        }
+      },
+      "summary": "",
+      "skills": [
+        {
+          "name": "React",
+          "rating": 8
+        },
+        {
+          "name": "TypeScript",
+          "rating": "7/10"
+        },
+        {
+          "name": "CSS",
+          "rating": "advanced"
+        },
+        {
+          "name": "GraphQL"
+        }
+      ],
+      "workHistory": {
+        "company": "ProCom",
+        "title": "Frontend Developer",
+        "dates": "2023-present",
+        "notes": [
+          "built reusable UI components",
+          "sometimes owns QA for her features"
+        ]
+      },
+      "projects": [
+        {
+          "name": "Customer Dashboard",
+          "role": "UI owner",
+          "impact": null
+        }
+      ],
+      "education": [
+        {
+          "institution": "Unknown bootcamp",
+          "degree": "Frontend certificate"
+        }
+      ],
+      "certifications": "none listed",
+      "internalProfileData": {
+        "employeeId": "PC-1102",
+        "manager": null,
+        "performanceRating": 3.8,
+        "availabilityForNewWork": "available after current sprint",
+        "promotionReadiness": "not assessed"
+      }
+    },
+    {
+      "personId": "procom_messy_emp_1103",
+      "personType": "internal_employee",
+      "domain": "software",
+      "currentCompany": "ProCom",
+      "profile": {
+        "name": "Marcus Hale",
+        "headline": "ML Engineer / Data Scientist",
+        "level": "Senior",
+        "location": {
+          "city": "Austin",
+          "state": "TX",
+          "remoteStatus": true
+        }
+      },
+      "summary": "Builds prototypes quickly. Strong Python. Production ML experience is uneven.",
+      "skills": {
+        "primary": [
+          "Python",
+          "PyTorch",
+          "RAG",
+          "langchain",
+          "SQL"
+        ],
+        "secondary": [
+          "Docker"
+        ],
+        "softSkills": []
+      },
+      "workHistory": [
+        {
+          "company": "ProCom",
+          "title": "ML Engineer",
+          "startDate": "2024-13-01",
+          "endDate": null,
+          "highlights": [
+            "Built RAG proof of concept",
+            12345,
+            {
+              "note": "Needs review"
+            }
+          ]
+        },
+        {
+          "company": "Freelance",
+          "title": "AI Consultant",
+          "startDate": "2022",
+          "endDate": "2024",
+          "highlights": []
+        }
+      ],
+      "projects": [
+        {
+          "name": "AI Support Assistant",
+          "role": "Lead",
+          "impact": "prototype accepted",
+          "technologies": "Python, FastAPI, Qdrant"
+        }
+      ],
+      "education": [
+        {
+          "institution": "Texas State",
+          "degree": "MS Data Science",
+          "year": 2021
+        }
+      ],
+      "certifications": [
+        {
+          "name": "AWS ML Specialty",
+          "status": "expired?"
+        }
+      ],
+      "internalProfileData": {
+        "employeeId": "PC-1103",
+        "performanceRating": "4.2/5",
+        "availability": {
+          "percent": 50,
+          "date": "soon"
+        },
+        "careerInterests": [
+          "Applied AI",
+          "customer demos"
+        ],
+        "internalNotes": [
+          "Great demos",
+          "Needs pairing for production hardening"
+        ]
+      }
+    },
+    {
+      "personId": "procom_messy_emp_1104",
+      "type": "internal",
+      "domain": "software",
+      "currentCompany": "ProCom",
+      "profile": {
+        "firstName": "Ivy",
+        "lastName": "Stone",
+        "headline": "Engineering Manager",
+        "level": "Manager",
+        "location": {
+          "city": "Denver",
+          "state": "CO",
+          "remoteStatus": "hybrid"
+        }
+      },
+      "summary": "Manages 7 engineers. Former QA lead. Strong delivery habits; light on architecture.",
+      "skills": {
+        "primary": [
+          "people management",
+          "roadmaps",
+          "release planning",
+          "QA strategy"
+        ],
+        "secondary": [
+          "Jira",
+          "Confluence"
+        ],
+        "softSkills": "coaching, feedback, stakeholder management"
+      },
+      "workHistory": [
+        {
+          "company": "ProCom",
+          "title": "Engineering Manager",
+          "startDate": "2021-06-01",
+          "endDate": null
+        },
+        {
+          "company": "ProCom",
+          "title": "QA Lead",
+          "startDate": "2019-01-15",
+          "endDate": "2021-05-31"
+        }
+      ],
+      "projects": [],
+      "education": {
+        "institution": "Colorado State",
+        "degree": "B.S. Information Systems",
+        "graduated": "yes"
+      },
+      "certifications": [
+        {
+          "name": "CSM",
+          "status": true
+        }
+      ],
+      "internalProfileData": {
+        "employeeId": "PC-1104",
+        "manager": "Lee Brennan",
+        "performanceRating": "meets+",
+        "availabilityForNewWork": false,
+        "promotionReadiness": "N/A - manager track",
+        "careerInterests": [
+          "Director path",
+          "team health metrics"
+        ]
+      }
+    },
+    {
+      "personId": "procom_messy_emp_1105",
+      "personType": "internal_employee",
+      "domain": "software",
+      "currentCompany": "ProCom",
+      "profile": {
+        "firstName": "Theo",
+        "lastName": "",
+        "displayName": "Theo",
+        "headline": null,
+        "level": "Staff?",
+        "location": {
+          "city": "",
+          "state": "WA",
+          "remoteStatus": "remote"
+        }
+      },
+      "summary": "Security-focused engineer. Some records missing from HR import.",
+      "skills": {
+        "primary": [
+          "OAuth",
+          "IAM",
+          "Threat Modeling",
+          "SAST",
+          null
+        ],
+        "secondary": [],
+        "softSkills": [
+          "risk communication"
+        ]
+      },
+      "workHistory": [],
+      "projects": [
+        {
+          "name": "Identity Provider Migration",
+          "role": "Security Reviewer",
+          "impact": "blocked risky launch until fixes shipped"
+        }
+      ],
+      "education": [],
+      "certifications": [
+        {
+          "name": "Security+",
+          "status": "ACTIVE"
+        },
+        {
+          "name": "",
+          "status": "unknown"
+        }
+      ],
+      "internalProfileData": {
+        "employeeId": "PC-1105",
+        "manager": "Chris Moreno",
+        "performanceRating": null,
+        "availabilityForNewWork": "unknown",
+        "promotionReadiness": "",
+        "internalNotes": "Imported from partial profile export."
+      }
+    },
+    {
+      "personId": "conspro_messy_emp_2101",
+      "personType": "internal_employee",
+      "domain": "managed_it_services",
+      "currentCompany": "ConsPro",
+      "profile": {
+        "firstName": "Jasmin",
+        "lastName": "Cole",
+        "headline": "Helpdesk Tech 2",
+        "level": "2",
+        "location": "Atlanta office / client sites"
+      },
+      "summary": "Strong ticket closer. Documentation inconsistent.",
+      "skills": {
+        "primary": [
+          "Windows",
+          "O365",
+          "ActiveDirectory",
+          "Remote Support"
+        ],
+        "secondary": [
+          "printers",
+          "basic networking"
+        ],
+        "softSkills": [
+          "patient with users",
+          "fast learner"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "ConsPro",
+          "title": "Help Desk Technician II",
+          "startDate": "09/2022",
+          "endDate": "current",
+          "highlights": [
+            "Handles VIP tickets",
+            "Trains new techs informally"
+          ]
+        }
+      ],
+      "projects": "Assisted with endpoint refresh for 300-user legal client.",
+      "education": [
+        {
+          "institution": "Atlanta Technical College",
+          "degree": "AAS IT",
+          "year": "2018?"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "CompTIA A+",
+          "status": "active"
+        }
+      ],
+      "internalProfileData": {
+        "employeeId": "CP-2101",
+        "billableUtilization": "78%",
+        "onCallEligible": "yes",
+        "availabilityForNewWork": "immediate",
+        "clientFit": "legal, healthcare"
+      }
+    },
+    {
+      "personId": "conspro_messy_emp_2102",
+      "personType": "internal_employee",
+      "domain": "MSP",
+      "currentCompany": "ConsPro",
+      "profile": {
+        "firstName": "Omar",
+        "lastName": "Bennett",
+        "displayName": "O. Bennett",
+        "headline": "Network Engineer",
+        "level": "Senior",
+        "location": {
+          "city": "Charlotte",
+          "state": "NC",
+          "remoteStatus": "field/hybrid"
+        }
+      },
+      "summary": "Cisco/Fortinet engineer. Great with migrations; not always available for documentation.",
+      "skills": {
+        "primary": [
+          "Cisco",
+          "Fortinet",
+          "VLAN",
+          "BGP",
+          "firewalls"
+        ],
+        "secondary": [
+          {
+            "skill": "Palo Alto",
+            "level": 2
+          }
+        ],
+        "softSkills": [
+          "client calm",
+          "migration planning"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "ConsPro",
+          "title": "Network Engineer",
+          "startDate": "2020-04",
+          "endDate": null,
+          "highlights": [
+            "Firewall cutovers",
+            "Wi-Fi redesigns"
+          ]
+        },
+        {
+          "company": null,
+          "title": "Network Tech",
+          "startDate": "2017",
+          "endDate": "2020"
+        }
+      ],
+      "projects": [
+        {
+          "name": "Manufacturing Firewall Migration",
+          "role": "Lead",
+          "impact": "completed after-hours cutover with minimal downtime"
+        }
+      ],
+      "education": "Some college",
+      "certifications": [
+        {
+          "name": "CCNA",
+          "status": "expired"
+        },
+        {
+          "name": "Fortinet NSE 4",
+          "status": "Active"
+        }
+      ],
+      "internalProfileData": {
+        "employeeId": "CP-2102",
+        "billableUtilization": 0.84,
+        "onCallEligible": true,
+        "availabilityForNewWork": {
+          "after": "2026-08-01"
+        },
+        "clientFit": [
+          "manufacturing",
+          "retail"
+        ]
+      }
+    },
+    {
+      "personId": "conspro_messy_emp_2103",
+      "personType": "employee",
+      "domain": "managed_it_services",
+      "currentCompany": "ConsPro",
+      "profile": {
+        "name": "Brianna Fox",
+        "headline": "M365 Specialist",
+        "location": {
+          "city": "Tampa",
+          "state": "FL"
+        }
+      },
+      "summary": null,
+      "skills": {
+        "primary": [
+          "Exchange Online",
+          "Teams",
+          "SharePoint",
+          "Email Security"
+        ],
+        "secondary": "PowerShell; Entra ID",
+        "softSkills": [
+          "training users",
+          "clear writing"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "ConsPro",
+          "title": "Microsoft 365 Specialist",
+          "startDate": "2021/11",
+          "endDate": "Present"
+        }
+      ],
+      "projects": [
+        {
+          "name": "Tenant Security Baseline",
+          "impact": "reduced risky forwarding rules",
+          "technologies": [
+            "M365 Defender",
+            "Exchange"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "WGU",
+          "degree": "BS IT Management"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "MS-102",
+          "status": "in-progress"
+        }
+      ],
+      "internalProfileData": {
+        "employeeId": "CP-2103",
+        "performanceRating": "green",
+        "billableUtilization": "not tracked",
+        "availabilityForNewWork": "maybe",
+        "clientFit": [
+          "education",
+          "nonprofit",
+          42
+        ]
+      }
+    },
+    {
+      "personId": "conspro_messy_emp_2104",
+      "personType": "internal_employee",
+      "domain": "managed_it_services",
+      "currentCompany": "ConsPro",
+      "profile": {
+        "firstName": "Eli",
+        "lastName": "Grant",
+        "headline": "Field Technician",
+        "level": "L1/L2",
+        "location": {
+          "city": "Phoenix",
+          "state": "AZ",
+          "remoteStatus": false
+        }
+      },
+      "summary": "Excellent onsite presence. Needs more cloud exposure.",
+      "skills": [
+        "cabling",
+        "printers",
+        "POS systems",
+        "basic networking",
+        {
+          "name": "Windows imaging",
+          "level": "intermediate"
+        }
+      ],
+      "workHistory": [
+        {
+          "company": "ConsPro",
+          "title": "Field Tech",
+          "startDate": "July 2023",
+          "endDate": null,
+          "highlights": []
+        }
+      ],
+      "projects": [
+        {
+          "name": "Retail POS Rollout",
+          "role": "Onsite lead",
+          "impact": "visited 19 stores in 3 weeks"
+        }
+      ],
+      "education": [],
+      "certifications": "A+ scheduled",
+      "internalProfileData": {
+        "employeeId": "CP-2104",
+        "billableUtilization": 91,
+        "onCallEligible": "no",
+        "availabilityForNewWork": "travels frequently",
+        "clientFit": "retail"
+      }
+    },
+    {
+      "personId": "conspro_messy_emp_2105",
+      "personType": "internal_employee",
+      "domain": "managed_it_services",
+      "currentCompany": "ConsPro",
+      "profile": {},
+      "summary": "Imported employee record with missing profile fields. Appears to be a SOC analyst based on skills and project notes.",
+      "skills": {
+        "primary": [
+          "SIEM",
+          "Sentinel",
+          "alert triage",
+          "Defender",
+          "phishing analysis"
+        ],
+        "secondary": null,
+        "softSkills": [
+          "detail-oriented"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "ConsPro",
+          "title": "SOC Analyst",
+          "startDate": "2022-02-30",
+          "endDate": null
+        }
+      ],
+      "projects": [
+        {
+          "name": "Phishing Triage Playbook",
+          "role": "unknown",
+          "impact": "standardized escalation steps"
+        }
+      ],
+      "education": [
+        {
+          "institution": "",
+          "degree": "Cybersecurity certificate",
+          "year": ""
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Security+",
+          "status": "active"
+        },
+        {
+          "name": "CySA+",
+          "status": "planned"
+        }
+      ],
+      "internalProfileData": {
+        "employeeId": "CP-2105",
+        "manager": "Renee Brooks",
+        "billableUtilization": null,
+        "availabilityForNewWork": "night shift only",
+        "internalNotes": {
+          "source": "CSV import",
+          "confidence": 0.62
+        }
+      }
+    },
+    {
+      "personId": "external_messy_procom_3101",
+      "personType": "external_candidate",
+      "targetCompany": "ProCom",
+      "domain": "software",
+      "currentCompany": "Freelance",
+      "profile": {
+        "firstName": "Lena",
+        "lastName": "Park",
+        "headline": "Fullstack Engineer",
+        "location": {
+          "city": "Madison",
+          "state": "WI",
+          "remoteStatus": "yes"
+        }
+      },
+      "summary": "Full-stack developer, mostly JS/TS. Good product sense. Resume has gaps.",
+      "skills": {
+        "primary": [
+          "React",
+          "Node",
+          "TypeScript",
+          "Postgres"
+        ],
+        "secondary": [
+          "AWS?",
+          "GraphQL",
+          "Tailwind"
+        ],
+        "softSkills": [
+          "product-minded",
+          "async communication"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "Freelance",
+          "title": "Fullstack Engineer",
+          "startDate": "2023",
+          "endDate": "now"
+        }
+      ],
+      "projects": [
+        {
+          "name": "Scheduling SaaS MVP",
+          "impact": "launched beta"
+        }
+      ],
+      "education": "Bootcamp + self taught",
+      "certifications": "none",
+      "resumeData": {
+        "desiredRoles": [
+          "Senior Engineer",
+          "Staff Engineer"
+        ],
+        "availability": "2 weeks",
+        "linkedin": ""
+      }
+    },
+    {
+      "personId": "external_messy_procom_3102",
+      "personType": "candidate",
+      "targetCompany": "ProCom",
+      "domain": "software",
+      "currentCompany": "GovTech Systems",
+      "profile": {
+        "name": "Andre Silva",
+        "headline": "Java Architect",
+        "level": 5,
+        "location": "DC Metro"
+      },
+      "summary": "Very senior Java engineer. Older stack, but strong architecture background.",
+      "skills": [
+        {
+          "name": "Java",
+          "years": 17
+        },
+        {
+          "name": "Spring",
+          "years": "10+"
+        },
+        {
+          "name": "Oracle",
+          "level": "expert"
+        },
+        {
+          "name": "Kubernetes",
+          "level": "beginner"
+        }
+      ],
+      "workHistory": [
+        {
+          "company": "GovTech Systems",
+          "title": "Java Architect",
+          "startDate": "2019-2021",
+          "endDate": null
+        }
+      ],
+      "projects": [
+        {
+          "name": "Legacy Java Modernization",
+          "impact": null
+        }
+      ],
+      "education": [
+        {
+          "institution": "Maryland",
+          "degree": "BS CS",
+          "year": 2006
+        }
+      ],
+      "certifications": [
+        {
+          "name": "AZ-104",
+          "status": "Active"
+        }
+      ],
+      "resumeData": {
+        "desiredRoles": "Frontend, Fullstack, maybe product engineering",
+        "availability": "unclear",
+        "linkedin": "https://linkedin.example.com/in/sample"
+      }
+    },
+    {
+      "personId": "external_messy_procom_3103",
+      "personType": "external_candidate",
+      "targetCompany": "ProCom",
+      "domain": "software",
+      "currentCompany": null,
+      "profile": {
+        "firstName": "Mira",
+        "lastName": "Khan",
+        "headline": "AI Engineer",
+        "level": "mid/senior",
+        "location": {
+          "city": "Atlanta",
+          "state": "GA",
+          "remoteStatus": "hybrid preferred"
+        }
+      },
+      "summary": "RAG, Python, evaluation tooling. Recent layoff.",
+      "skills": {
+        "primary": [
+          "Python",
+          "RAG",
+          "Vector DBs",
+          "LLM evals",
+          "FastAPI"
+        ],
+        "secondary": [
+          "React - basic"
+        ],
+        "softSkills": "curious; explains complex topics well"
+      },
+      "workHistory": [
+        {
+          "company": "Career break",
+          "title": "AI Engineer",
+          "startDate": "2022-10",
+          "endDate": "present"
+        }
+      ],
+      "projects": [
+        {
+          "name": "Legal Document RAG",
+          "impact": "reduced hallucinations"
+        }
+      ],
+      "education": [
+        {
+          "institution": "Georgia State",
+          "degree": "MS Analytics",
+          "year": "2020"
+        }
+      ],
+      "certifications": [],
+      "resumeData": {
+        "desiredRoles": [
+          "AI Engineer"
+        ],
+        "availability": "Immediate",
+        "linkedin": null
+      }
+    },
+    {
+      "personId": "external_messy_procom_3104",
+      "personType": "candidate",
+      "targetCompany": "ProCom",
+      "domain": "software",
+      "currentCompany": "RetailScale",
+      "profile": {
+        "firstName": "Jon",
+        "lastName": "Meyer",
+        "headline": "SRE",
+        "level": "Senior",
+        "location": {
+          "city": "Boise",
+          "state": "ID",
+          "remoteStatus": "remote only"
+        }
+      },
+      "summary": "SRE with strong incident response. Resume overuses acronyms.",
+      "skills": {
+        "primary": [
+          "K8s",
+          "Terraform",
+          "Prometheus",
+          "Grafana",
+          "AWS"
+        ],
+        "secondary": [
+          "Go",
+          "Python"
+        ],
+        "softSkills": [
+          "incident commander",
+          null
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "RetailScale",
+          "title": "SRE",
+          "startDate": 2020,
+          "endDate": "current"
+        }
+      ],
+      "projects": [
+        {
+          "name": "Observability Rollout",
+          "impact": "unknown"
+        }
+      ],
+      "education": [],
+      "certifications": "Security+ pending",
+      "resumeData": {
+        "desiredRoles": null,
+        "availability": "30-45 days",
+        "linkedin": "missing"
+      }
+    },
+    {
+      "personId": "external_messy_procom_3105",
+      "personType": "external_candidate",
+      "targetCompany": "ProCom",
+      "domain": "software",
+      "currentCompany": "University Lab",
+      "profile": {
+        "firstName": "Anika",
+        "lastName": "Roy",
+        "headline": "Data Engineer",
+        "level": "junior",
+        "location": {
+          "city": "Pittsburgh",
+          "state": "PA"
+        }
+      },
+      "summary": "Academic research data pipelines. May be a stretch for production role.",
+      "skills": {
+        "primary": [
+          "Python",
+          "SQL",
+          "Airflow",
+          "Spark"
+        ],
+        "secondary": [
+          {
+            "name": "Snowflake",
+            "confidence": 0.4
+          }
+        ],
+        "softSkills": [
+          "research collaboration"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "University Lab",
+          "title": "Data Engineer",
+          "startDate": "2018-current",
+          "endDate": ""
+        }
+      ],
+      "projects": [
+        {
+          "name": "Endpoint Refresh",
+          "impact": {
+            "score": "A-",
+            "notes": "not normalized"
+          }
+        }
+      ],
+      "education": [
+        {
+          "institution": "Carnegie Mellon",
+          "degree": "MS Information Systems",
+          "year": "not listed"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Veeam VMCE",
+          "status": "active"
+        }
+      ],
+      "resumeData": {
+        "desiredRoles": "Helpdesk II / Desktop Support",
+        "availability": null,
+        "linkedin": "not provided"
+      }
+    },
+    {
+      "personId": "external_messy_conspro_4101",
+      "personType": "candidate",
+      "targetCompany": "ConsPro",
+      "domain": "managed_it_services",
+      "currentCompany": "City Hospital",
+      "profile": {
+        "firstName": "Devon",
+        "lastName": "Miles",
+        "headline": "Desktop Support Specialist",
+        "location": "Cleveland, OH"
+      },
+      "summary": "Strong healthcare support background. Limited MSP experience.",
+      "skills": {
+        "primary": [
+          "Windows",
+          "imaging",
+          "ServiceNow",
+          "hardware",
+          "O365"
+        ],
+        "secondary": [
+          "basic AD"
+        ],
+        "softSkills": [
+          "calm with frustrated users"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "City Hospital",
+          "title": "Desktop Support Specialist",
+          "startDate": "2023",
+          "endDate": "now"
+        }
+      ],
+      "projects": [
+        {
+          "name": "Scheduling SaaS MVP",
+          "impact": "launched beta"
+        }
+      ],
+      "education": [],
+      "certifications": "none",
+      "resumeData": {
+        "desiredRoles": [
+          "Senior Engineer",
+          "Staff Engineer"
+        ],
+        "availability": "2 weeks",
+        "linkedin": ""
+      }
+    },
+    {
+      "personId": "external_messy_conspro_4102",
+      "personType": "external_candidate",
+      "targetCompany": "ConsPro",
+      "domain": "managed_it_services",
+      "currentCompany": "CloudSide Consulting",
+      "profile": {
+        "name": "Hannah Lee",
+        "headline": "Azure Consultant",
+        "level": "Consultant",
+        "location": {
+          "city": "Orlando",
+          "state": "FL",
+          "remoteStatus": "travel ok"
+        }
+      },
+      "summary": "Azure migration consultant. Might be expensive for ConsPro role.",
+      "skills": [
+        {
+          "name": "Azure",
+          "level": 9
+        },
+        {
+          "name": "Entra ID",
+          "level": "advanced"
+        },
+        {
+          "name": "Intune",
+          "level": 7
+        },
+        {
+          "name": "PowerShell",
+          "level": "8/10"
+        }
+      ],
+      "workHistory": [
+        {
+          "company": "CloudSide Consulting",
+          "title": "Azure Consultant",
+          "startDate": "2019-2021",
+          "endDate": null
+        }
+      ],
+      "projects": [
+        {
+          "name": "Legacy Java Modernization",
+          "impact": null
+        }
+      ],
+      "education": [
+        {
+          "institution": "UCF",
+          "degree": "BS IT",
+          "year": 2015
+        }
+      ],
+      "certifications": [
+        {
+          "name": "AZ-104",
+          "status": "Active"
+        }
+      ],
+      "resumeData": {
+        "desiredRoles": "Frontend, Fullstack, maybe product engineering",
+        "availability": "unclear",
+        "linkedin": "https://linkedin.example.com/in/sample"
+      }
+    },
+    {
+      "personId": "external_messy_conspro_4103",
+      "personType": "candidate",
+      "targetCompany": "ConsPro",
+      "domain": "MSP",
+      "currentCompany": "Regional ISP",
+      "profile": {
+        "firstName": "Mateo",
+        "lastName": "Cruz",
+        "headline": "NOC Engineer",
+        "level": 2,
+        "location": {
+          "city": "Kansas City",
+          "state": "MO",
+          "remoteStatus": "overnights ok"
+        }
+      },
+      "summary": "",
+      "skills": {
+        "primary": [
+          "NOC monitoring",
+          "routing basics",
+          "alert triage",
+          "Linux"
+        ],
+        "secondary": [],
+        "softSkills": null
+      },
+      "workHistory": [
+        {
+          "company": "Regional ISP",
+          "title": "NOC Engineer",
+          "startDate": "2022-10",
+          "endDate": "present"
+        }
+      ],
+      "projects": [
+        {
+          "name": "Legal Document RAG",
+          "impact": "reduced hallucinations"
+        }
+      ],
+      "education": [
+        {
+          "institution": "Community college",
+          "degree": "Networking cert",
+          "year": "2021"
+        }
+      ],
+      "certifications": [],
+      "resumeData": {
+        "desiredRoles": [
+          "AI Engineer"
+        ],
+        "availability": "Immediate",
+        "linkedin": null
+      }
+    },
+    {
+      "personId": "external_messy_conspro_4104",
+      "personType": "external_candidate",
+      "targetCompany": "ConsPro",
+      "domain": "managed_it_services",
+      "currentCompany": "VoiceBridge",
+      "profile": {
+        "firstName": "Sasha",
+        "lastName": "Green",
+        "headline": "VoIP Engineer",
+        "level": "Sr",
+        "location": {
+          "city": "Richmond",
+          "state": "VA",
+          "remoteStatus": "hybrid"
+        }
+      },
+      "summary": "VoIP specialist with broad telecom experience; thin endpoint/cloud skills.",
+      "skills": {
+        "primary": [
+          "VoIP",
+          "SIP",
+          "PBX",
+          "call routing",
+          "QoS"
+        ],
+        "secondary": "Cisco UC, Teams Phone maybe",
+        "softSkills": [
+          "vendor coordination",
+          "client training"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "VoiceBridge",
+          "title": "VoIP Engineer",
+          "startDate": 2020,
+          "endDate": "current"
+        }
+      ],
+      "projects": [
+        {
+          "name": "Observability Rollout",
+          "impact": "unknown"
+        }
+      ],
+      "education": null,
+      "certifications": "Security+ pending",
+      "resumeData": {
+        "desiredRoles": null,
+        "availability": "30-45 days",
+        "linkedin": "missing"
+      }
+    },
+    {
+      "personId": "external_messy_conspro_4105",
+      "personType": "candidate",
+      "targetCompany": "ConsPro",
+      "domain": "managed_it_services",
+      "currentCompany": "BackupVault Partners",
+      "profile": {
+        "firstName": "Grace",
+        "lastName": "Ng",
+        "headline": null,
+        "location": {
+          "city": "Salt Lake City",
+          "state": "UT"
+        }
+      },
+      "summary": "Backup and disaster recovery technician. Good fit for managed backup services.",
+      "skills": {
+        "primary": [
+          "Veeam",
+          "backup testing",
+          "DR runbooks",
+          "VMware"
+        ],
+        "secondary": [
+          "Azure Backup",
+          null
+        ],
+        "softSkills": [
+          "methodical",
+          "risk-focused"
+        ]
+      },
+      "workHistory": [
+        {
+          "company": "BackupVault Partners",
+          "title": "Unknown",
+          "startDate": "2018-current",
+          "endDate": ""
+        }
+      ],
+      "projects": [
+        {
+          "name": "Endpoint Refresh",
+          "impact": {
+            "score": "A-",
+            "notes": "not normalized"
+          }
+        }
+      ],
+      "education": [
+        {
+          "institution": "unknown",
+          "degree": "",
+          "year": null
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Veeam VMCE",
+          "status": "active"
+        }
+      ],
+      "resumeData": {
+        "desiredRoles": "Helpdesk II / Desktop Support",
+        "availability": null,
+        "linkedin": "not provided"
+      }
+    }
+  ]
+}
