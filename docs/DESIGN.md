@@ -4,6 +4,9 @@
 requirement in [REQUIREMENTS.md](REQUIREMENTS.md) to the code that satisfies it and the
 test that verifies it.*
 
+> **Status:** v1 draft complete. See [STATUS.md](STATUS.md) for the current version, the
+> test/run snapshot, known issues, and the deferred roadmap.
+
 ## Overview
 
 Three independent asset types are composed into an HTML report by a three-stage pipeline:
